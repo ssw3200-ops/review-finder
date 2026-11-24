@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 03:52",
+ "updated": "2026-11-25 06:35",
  "sites": {
   "디너의여왕": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "미블": {
    "ok": true,
-   "count": 30
+   "count": 29
   },
   "놀러와체험단": {
    "ok": true,
@@ -335,12 +335,12 @@
    "sido": "서울",
    "area": "용산",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": true,
    "cat": "맛집",
-   "ratio": 0.7
+   "ratio": 1.0
   },
   {
    "id": "dq-1668109",
@@ -403,12 +403,12 @@
    "sido": "경기",
    "area": "안산",
    "type": "방문",
-   "applied": 2,
+   "applied": 4,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "문화",
-   "ratio": 1.0
+   "ratio": 2.0
   },
   {
    "id": "dq-1667088",
@@ -488,12 +488,12 @@
    "sido": "경기",
    "area": "시흥",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.3
+   "ratio": 0.7
   },
   {
    "id": "dq-1667869",
@@ -811,12 +811,12 @@
    "sido": "서울",
    "area": "강남",
    "type": "방문",
-   "applied": 3,
+   "applied": 4,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 3.0
+   "ratio": 4.0
   },
   {
    "id": "dq-1669976",
@@ -828,12 +828,12 @@
    "sido": "경기",
    "area": "과천",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.3
+   "ratio": 0.7
   },
   {
    "id": "dq-1669978",
@@ -896,12 +896,12 @@
    "sido": "서울",
    "area": "마포",
    "type": "방문",
-   "applied": 3,
+   "applied": 4,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 3.0
+   "ratio": 4.0
   },
   {
    "id": "dq-1666405",
@@ -1134,12 +1134,12 @@
    "sido": "경기",
    "area": "화성",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.0
+   "ratio": 2.0
   },
   {
    "id": "dq-1669021",
@@ -1168,12 +1168,12 @@
    "sido": "경기",
    "area": "화성",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 2.0
+   "ratio": 3.0
   },
   {
    "id": "dq-1666724",
@@ -1202,12 +1202,12 @@
    "sido": "경기",
    "area": "부천",
    "type": "방문",
-   "applied": 3,
+   "applied": 5,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.0
+   "ratio": 1.7
   },
   {
    "id": "dq-1667238",
@@ -1270,12 +1270,12 @@
    "sido": "경기",
    "area": "화성",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.3
+   "ratio": 0.7
   },
   {
    "id": "dq-1668534",
@@ -1321,12 +1321,12 @@
    "sido": "경기",
    "area": "성남",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.3
+   "ratio": 0.7
   },
   {
    "id": "dq-1669305",
@@ -1508,12 +1508,12 @@
    "sido": "경기",
    "area": "화성",
    "type": "방문",
-   "applied": 1,
+   "applied": 3,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.2
+   "ratio": 0.6
   },
   {
    "id": "dq-1667291",
@@ -1542,12 +1542,12 @@
    "sido": "부산",
    "area": "수영",
    "type": "방문",
-   "applied": 4,
+   "applied": 5,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.3
+   "ratio": 1.7
   },
   {
    "id": "dq-1666525",
@@ -1661,12 +1661,12 @@
    "sido": "서울",
    "area": "마포",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.7
+   "ratio": 1.0
   },
   {
    "id": "dq-1666027",
@@ -1950,12 +1950,12 @@
    "sido": "부산",
    "area": "중구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1669377",
@@ -2579,12 +2579,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 8,
+   "applied": 10,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 8.0
+   "ratio": 10.0
   },
   {
    "id": "dq-1666575",
@@ -2596,12 +2596,12 @@
    "sido": "경기",
    "area": "안산",
    "type": "방문",
-   "applied": 8,
+   "applied": 10,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "문화",
-   "ratio": 4.0
+   "ratio": 5.0
   },
   {
    "id": "dq-1668119",
@@ -2647,12 +2647,12 @@
    "sido": "부산",
    "area": "수영",
    "type": "방문",
-   "applied": 5,
+   "applied": 6,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.7
+   "ratio": 2.0
   },
   {
    "id": "dq-1669649",
@@ -2681,12 +2681,12 @@
    "sido": "경기",
    "area": "시흥",
    "type": "방문",
-   "applied": 4,
+   "applied": 5,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 2.0
+   "ratio": 2.5
   },
   {
    "id": "dq-1668379",
@@ -2715,12 +2715,12 @@
    "sido": "부산",
    "area": "해운대",
    "type": "방문",
-   "applied": 3,
+   "applied": 4,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 3.0
+   "ratio": 4.0
   },
   {
    "id": "dq-1666638",
@@ -2732,12 +2732,12 @@
    "sido": "부산",
    "area": "중구",
    "type": "방문",
-   "applied": 3,
+   "applied": 4,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.0
+   "ratio": 1.3
   },
   {
    "id": "dq-1667933",
@@ -2834,12 +2834,12 @@
    "sido": "경기",
    "area": "부천",
    "type": "방문",
-   "applied": 6,
+   "applied": 7,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 3.0
+   "ratio": 3.5
   },
   {
    "id": "dq-1668517",
@@ -2902,12 +2902,12 @@
    "sido": "부산",
    "area": "진구",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.7
+   "ratio": 1.0
   },
   {
    "id": "dq-1667037",
@@ -3344,12 +3344,12 @@
    "sido": "충남",
    "area": "천안",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.0
+   "ratio": 2.0
   },
   {
    "id": "dq-1667628",
@@ -3480,12 +3480,12 @@
    "sido": "서울",
    "area": "송파",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "문화",
-   "ratio": 1.0
+   "ratio": 2.0
   },
   {
    "id": "dq-1667379",
@@ -3769,12 +3769,12 @@
    "sido": "경기",
    "area": "의왕",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.0
+   "ratio": 2.0
   },
   {
    "id": "dq-1668968",
@@ -4194,12 +4194,12 @@
    "sido": "경기",
    "area": "고양",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.3
+   "ratio": 0.7
   },
   {
    "id": "dq-1667217",
@@ -4330,12 +4330,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.5
+   "ratio": 1.0
   },
   {
    "id": "dq-1669540",
@@ -4500,12 +4500,12 @@
    "sido": "서울",
    "area": "강남",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "뷰티",
-   "ratio": 1.0
+   "ratio": 1.5
   },
   {
    "id": "dq-1667535",
@@ -5129,12 +5129,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1002,
+   "applied": 1013,
    "recruit": 1,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 1002.0
+   "ratio": 1013.0
   },
   {
    "id": "dq-1669358",
@@ -5146,12 +5146,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 14,
+   "applied": 17,
    "recruit": 7,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 2.0
+   "ratio": 2.4
   },
   {
    "id": "dq-1667174",
@@ -5163,12 +5163,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 15,
+   "applied": 23,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 15.0
+   "ratio": 23.0
   },
   {
    "id": "dq-1662713",
@@ -5180,7 +5180,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 55,
+   "applied": 56,
    "recruit": 20,
    "deadline": "2026-11-29",
    "extra_mission": false,
@@ -5248,12 +5248,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 331,
+   "applied": 341,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 33.1
+   "ratio": 34.1
   },
   {
    "id": "dq-1665591",
@@ -5265,12 +5265,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 329,
+   "applied": 340,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 32.9
+   "ratio": 34.0
   },
   {
    "id": "dq-1665548",
@@ -5282,12 +5282,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 321,
+   "applied": 330,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 32.1
+   "ratio": 33.0
   },
   {
    "id": "dq-1662738",
@@ -5299,12 +5299,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 285,
+   "applied": 292,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 28.5
+   "ratio": 29.2
   },
   {
    "id": "dq-1662646",
@@ -5316,12 +5316,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 285,
+   "applied": 295,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 28.5
+   "ratio": 29.5
   },
   {
    "id": "dq-1665730",
@@ -5333,12 +5333,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 290,
+   "applied": 302,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 29.0
+   "ratio": 30.2
   },
   {
    "id": "dq-1665799",
@@ -5350,12 +5350,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 262,
+   "applied": 269,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 26.2
+   "ratio": 26.9
   },
   {
    "id": "dq-1641583",
@@ -5367,12 +5367,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 246,
+   "applied": 249,
    "recruit": 20,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 12.3
+   "ratio": 12.4
   },
   {
    "id": "dq-1662690",
@@ -5380,6 +5380,23 @@
    "url": "https://dinnerqueen.net/taste/1662690",
    "title": "문어뽈보 스테이크 캔밀키트",
    "offer": "수비드 문어뽈보 스테이크 500g",
+   "media": "blog",
+   "sido": "배송·전국",
+   "area": "",
+   "type": "배송",
+   "applied": 238,
+   "recruit": 10,
+   "deadline": "2026-11-29",
+   "extra_mission": false,
+   "cat": "제품",
+   "ratio": 23.8
+  },
+  {
+   "id": "dq-1665762",
+   "site": "디너의여왕",
+   "url": "https://dinnerqueen.net/taste/1665762",
+   "title": "여주 호박 고구마 호풍미",
+   "offer": "호박고구마 호풍미 / 한입(10~70) 2kg",
    "media": "blog",
    "sido": "배송·전국",
    "area": "",
@@ -5392,23 +5409,6 @@
    "ratio": 23.0
   },
   {
-   "id": "dq-1665762",
-   "site": "디너의여왕",
-   "url": "https://dinnerqueen.net/taste/1665762",
-   "title": "여주 호박 고구마 호풍미",
-   "offer": "호박고구마 호풍미 / 한입(10~70) 2kg",
-   "media": "blog",
-   "sido": "배송·전국",
-   "area": "",
-   "type": "배송",
-   "applied": 221,
-   "recruit": 10,
-   "deadline": "2026-11-29",
-   "extra_mission": false,
-   "cat": "제품",
-   "ratio": 22.1
-  },
-  {
    "id": "dq-1662703",
    "site": "디너의여왕",
    "url": "https://dinnerqueen.net/taste/1662703",
@@ -5418,12 +5418,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 223,
+   "applied": 231,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 22.3
+   "ratio": 23.1
   },
   {
    "id": "dq-1662731",
@@ -5435,12 +5435,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 210,
+   "applied": 213,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 21.0
+   "ratio": 21.3
   },
   {
    "id": "dq-1662627",
@@ -5452,12 +5452,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 168,
+   "applied": 173,
    "recruit": 20,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 8.4
+   "ratio": 8.7
   },
   {
    "id": "dq-1665882",
@@ -5469,12 +5469,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 170,
+   "applied": 180,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 17.0
+   "ratio": 18.0
   },
   {
    "id": "dq-1662737",
@@ -5486,12 +5486,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 123,
+   "applied": 126,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 12.3
+   "ratio": 12.6
   },
   {
    "id": "dq-1662683",
@@ -5503,12 +5503,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 118,
+   "applied": 121,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 11.8
+   "ratio": 12.1
   },
   {
    "id": "dq-1665814",
@@ -5520,12 +5520,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 105,
+   "applied": 110,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 10.5
+   "ratio": 11.0
   },
   {
    "id": "dq-1665715",
@@ -5537,12 +5537,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 87,
+   "applied": 92,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 8.7
+   "ratio": 9.2
   },
   {
    "id": "dq-1665850",
@@ -5554,12 +5554,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 87,
+   "applied": 92,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 8.7
+   "ratio": 9.2
   },
   {
    "id": "dq-1665813",
@@ -5571,12 +5571,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 84,
+   "applied": 88,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 8.4
+   "ratio": 8.8
   },
   {
    "id": "dq-1665819",
@@ -5588,12 +5588,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 75,
+   "applied": 78,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 7.5
+   "ratio": 7.8
   },
   {
    "id": "dq-1665886",
@@ -5605,12 +5605,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 75,
+   "applied": 77,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 7.5
+   "ratio": 7.7
   },
   {
    "id": "dq-1662710",
@@ -5622,12 +5622,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 63,
+   "applied": 65,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 6.3
+   "ratio": 6.5
   },
   {
    "id": "dq-1665889",
@@ -5639,12 +5639,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 61,
+   "applied": 65,
    "recruit": 10,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 6.1
+   "ratio": 6.5
   },
   {
    "id": "dq-1662714",
@@ -5673,12 +5673,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 814,
+   "applied": 817,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 81.4
+   "ratio": 81.7
   },
   {
    "id": "dq-1662446",
@@ -5690,12 +5690,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 805,
+   "applied": 809,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 80.5
+   "ratio": 80.9
   },
   {
    "id": "dq-1662624",
@@ -5707,12 +5707,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 759,
+   "applied": 763,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 75.9
+   "ratio": 76.3
   },
   {
    "id": "dq-1662631",
@@ -5724,12 +5724,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 545,
+   "applied": 548,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 54.5
+   "ratio": 54.8
   },
   {
    "id": "dq-1662718",
@@ -5741,12 +5741,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 543,
+   "applied": 549,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 54.3
+   "ratio": 54.9
   },
   {
    "id": "dq-1662360",
@@ -5758,7 +5758,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 491,
+   "applied": 492,
    "recruit": 20,
    "deadline": "2026-11-28",
    "extra_mission": false,
@@ -5775,12 +5775,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 476,
+   "applied": 478,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 47.6
+   "ratio": 47.8
   },
   {
    "id": "dq-1662644",
@@ -5792,12 +5792,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 472,
+   "applied": 475,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 47.2
+   "ratio": 47.5
   },
   {
    "id": "dq-1662635",
@@ -5809,12 +5809,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 398,
+   "applied": 404,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 39.8
+   "ratio": 40.4
   },
   {
    "id": "dq-1662676",
@@ -5826,12 +5826,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 376,
+   "applied": 380,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 37.6
+   "ratio": 38.0
   },
   {
    "id": "dq-1662640",
@@ -5843,12 +5843,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 364,
+   "applied": 367,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 36.4
+   "ratio": 36.7
   },
   {
    "id": "dq-1662730",
@@ -5860,12 +5860,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 368,
+   "applied": 373,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 36.8
+   "ratio": 37.3
   },
   {
    "id": "dq-1662647",
@@ -5877,12 +5877,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 355,
+   "applied": 359,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 35.5
+   "ratio": 35.9
   },
   {
    "id": "dq-1662721",
@@ -5894,12 +5894,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 347,
+   "applied": 349,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 34.7
+   "ratio": 34.9
   },
   {
    "id": "dq-1662093",
@@ -5928,12 +5928,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 295,
+   "applied": 299,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 29.5
+   "ratio": 29.9
   },
   {
    "id": "dq-1662599",
@@ -5979,12 +5979,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 221,
+   "applied": 226,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 22.1
+   "ratio": 22.6
   },
   {
    "id": "dq-1662781",
@@ -5996,12 +5996,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 195,
+   "applied": 198,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 19.5
+   "ratio": 19.8
   },
   {
    "id": "dq-1662651",
@@ -6013,12 +6013,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 178,
+   "applied": 181,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 17.8
+   "ratio": 18.1
   },
   {
    "id": "dq-1665438",
@@ -6030,12 +6030,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 76,
+   "applied": 78,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 7.6
+   "ratio": 7.8
   },
   {
    "id": "dq-1648815",
@@ -6064,12 +6064,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 906,
+   "applied": 907,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 90.6
+   "ratio": 90.7
   },
   {
    "id": "dq-1648793",
@@ -6098,12 +6098,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 497,
+   "applied": 501,
    "recruit": 10,
    "deadline": "2026-11-28",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 49.7
+   "ratio": 50.1
   },
   {
    "id": "dq-1660428",
@@ -6132,12 +6132,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 276,
+   "applied": 277,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 27.6
+   "ratio": 27.7
   },
   {
    "id": "dq-1660268",
@@ -6166,12 +6166,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1612,
+   "applied": 1622,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 161.2
+   "ratio": 162.2
   },
   {
    "id": "dq-1660424",
@@ -6183,12 +6183,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1336,
+   "applied": 1341,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 133.6
+   "ratio": 134.1
   },
   {
    "id": "dq-1661447",
@@ -6200,12 +6200,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1199,
+   "applied": 1204,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 119.9
+   "ratio": 120.4
   },
   {
    "id": "dq-1661535",
@@ -6217,12 +6217,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1178,
+   "applied": 1180,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 117.8
+   "ratio": 118.0
   },
   {
    "id": "dq-1661237",
@@ -6234,12 +6234,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1081,
+   "applied": 1083,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 108.1
+   "ratio": 108.3
   },
   {
    "id": "dq-1660125",
@@ -6251,12 +6251,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1058,
+   "applied": 1059,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 105.8
+   "ratio": 105.9
   },
   {
    "id": "dq-1661432",
@@ -6268,12 +6268,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1038,
+   "applied": 1042,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 103.8
+   "ratio": 104.2
   },
   {
    "id": "dq-1661628",
@@ -6285,12 +6285,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1015,
+   "applied": 1019,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 101.5
+   "ratio": 101.9
   },
   {
    "id": "dq-1661569",
@@ -6302,12 +6302,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 915,
+   "applied": 918,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 91.5
+   "ratio": 91.8
   },
   {
    "id": "dq-1661463",
@@ -6319,12 +6319,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 703,
+   "applied": 707,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 70.3
+   "ratio": 70.7
   },
   {
    "id": "dq-1660460",
@@ -6336,12 +6336,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 700,
+   "applied": 702,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 70.0
+   "ratio": 70.2
   },
   {
    "id": "dq-1661579",
@@ -6353,12 +6353,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 693,
+   "applied": 695,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 69.3
+   "ratio": 69.5
   },
   {
    "id": "dq-1661107",
@@ -6370,12 +6370,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 672,
+   "applied": 674,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 67.2
+   "ratio": 67.4
   },
   {
    "id": "dq-1661622",
@@ -6387,12 +6387,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 670,
+   "applied": 674,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 67.0
+   "ratio": 67.4
   },
   {
    "id": "dq-1661578",
@@ -6404,12 +6404,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 631,
+   "applied": 633,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 63.1
+   "ratio": 63.3
   },
   {
    "id": "dq-1661462",
@@ -6438,12 +6438,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 483,
+   "applied": 484,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 48.3
+   "ratio": 48.4
   },
   {
    "id": "dq-1647913",
@@ -6455,12 +6455,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 468,
+   "applied": 471,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 46.8
+   "ratio": 47.1
   },
   {
    "id": "dq-1661686",
@@ -6472,12 +6472,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 467,
+   "applied": 470,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 46.7
+   "ratio": 47.0
   },
   {
    "id": "dq-1661581",
@@ -6489,12 +6489,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 445,
+   "applied": 446,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 44.5
+   "ratio": 44.6
   },
   {
    "id": "dq-1661557",
@@ -6506,12 +6506,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 441,
+   "applied": 443,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 44.1
+   "ratio": 44.3
   },
   {
    "id": "dq-1661199",
@@ -6523,12 +6523,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 412,
+   "applied": 414,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 41.2
+   "ratio": 41.4
   },
   {
    "id": "dq-1661625",
@@ -6540,12 +6540,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 380,
+   "applied": 382,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 38.0
+   "ratio": 38.2
   },
   {
    "id": "dq-1661755",
@@ -6557,12 +6557,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 338,
+   "applied": 341,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 33.8
+   "ratio": 34.1
   },
   {
    "id": "dq-1661592",
@@ -6574,12 +6574,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 327,
+   "applied": 328,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 32.7
+   "ratio": 32.8
   },
   {
    "id": "dq-1661769",
@@ -6591,12 +6591,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 196,
+   "applied": 197,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 19.6
+   "ratio": 19.7
   },
   {
    "id": "dq-1661695",
@@ -6608,12 +6608,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 185,
+   "applied": 186,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 18.5
+   "ratio": 18.6
   },
   {
    "id": "dq-1661514",
@@ -6659,7 +6659,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 68,
+   "applied": 69,
    "recruit": 31,
    "deadline": "2026-11-24",
    "extra_mission": false,
@@ -6693,12 +6693,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1499,
+   "applied": 1506,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 149.9
+   "ratio": 150.6
   },
   {
    "id": "dq-1660073",
@@ -6710,12 +6710,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 1076,
+   "applied": 1082,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 107.6
+   "ratio": 108.2
   },
   {
    "id": "dq-1660449",
@@ -6727,12 +6727,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 943,
+   "applied": 951,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 94.3
+   "ratio": 95.1
   },
   {
    "id": "dq-1660294",
@@ -6744,12 +6744,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 892,
+   "applied": 897,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 89.2
+   "ratio": 89.7
   },
   {
    "id": "dq-1660296",
@@ -6761,12 +6761,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 876,
+   "applied": 881,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 87.6
+   "ratio": 88.1
   },
   {
    "id": "dq-1660398",
@@ -6778,12 +6778,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 826,
+   "applied": 832,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 82.6
+   "ratio": 83.2
   },
   {
    "id": "dq-1660293",
@@ -6795,12 +6795,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 714,
+   "applied": 717,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 71.4
+   "ratio": 71.7
   },
   {
    "id": "dq-1660163",
@@ -6812,12 +6812,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 690,
+   "applied": 694,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 69.0
+   "ratio": 69.4
   },
   {
    "id": "dq-1660092",
@@ -6829,12 +6829,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 582,
+   "applied": 585,
    "recruit": 20,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 29.1
+   "ratio": 29.2
   },
   {
    "id": "dq-1646503",
@@ -6846,12 +6846,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 583,
+   "applied": 586,
    "recruit": 30,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 19.4
+   "ratio": 19.5
   },
   {
    "id": "dq-1660434",
@@ -6863,12 +6863,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 531,
+   "applied": 533,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 53.1
+   "ratio": 53.3
   },
   {
    "id": "dq-1658810",
@@ -6880,12 +6880,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 525,
+   "applied": 529,
    "recruit": 30,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 17.5
+   "ratio": 17.6
   },
   {
    "id": "dq-1660481",
@@ -6897,12 +6897,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 495,
+   "applied": 501,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 49.5
+   "ratio": 50.1
   },
   {
    "id": "dq-1659849",
@@ -6914,12 +6914,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 452,
+   "applied": 456,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 45.2
+   "ratio": 45.6
   },
   {
    "id": "dq-1660477",
@@ -6931,12 +6931,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 362,
+   "applied": 367,
    "recruit": 10,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 36.2
+   "ratio": 36.7
   },
   {
    "id": "dq-1669301",
@@ -6948,12 +6948,12 @@
    "sido": "기타",
    "area": "기자단",
    "type": "기자단",
-   "applied": 9,
+   "applied": 11,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "기타",
-   "ratio": 3.0
+   "ratio": 3.7
   },
   {
    "id": "dq-1665136",
@@ -8597,12 +8597,12 @@
    "sido": "강원",
    "area": "횡성",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.5
   },
   {
    "id": "dq-1668144",
@@ -8903,12 +8903,12 @@
    "sido": "강원",
    "area": "원주",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.3
+   "ratio": 0.7
   },
   {
    "id": "dq-1666129",
@@ -9209,12 +9209,12 @@
    "sido": "강원",
    "area": "횡성",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 15,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.1
   },
   {
    "id": "dq-1668242",
@@ -10110,12 +10110,12 @@
    "sido": "대전",
    "area": "중구",
    "type": "방문",
-   "applied": 4,
+   "applied": 5,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.8
+   "ratio": 1.0
   },
   {
    "id": "dq-1668689",
@@ -10127,12 +10127,12 @@
    "sido": "대전",
    "area": "중구",
    "type": "방문",
-   "applied": 6,
+   "applied": 8,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 3.0
+   "ratio": 4.0
   },
   {
    "id": "dq-1668454",
@@ -10144,12 +10144,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 5,
+   "applied": 6,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.7
+   "ratio": 2.0
   },
   {
    "id": "dq-1666669",
@@ -10382,12 +10382,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.4
+   "ratio": 0.6
   },
   {
    "id": "dq-1668611",
@@ -10416,12 +10416,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1668616",
@@ -10433,12 +10433,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1669386",
@@ -10535,12 +10535,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1669670",
@@ -10671,12 +10671,12 @@
    "sido": "대전",
    "area": "중구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1668684",
@@ -10688,12 +10688,12 @@
    "sido": "대전",
    "area": "중구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1668685",
@@ -10705,12 +10705,12 @@
    "sido": "대전",
    "area": "유성",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1668690",
@@ -10790,12 +10790,12 @@
    "sido": "대전",
    "area": "동구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1666672",
@@ -10909,12 +10909,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1666449",
@@ -10943,12 +10943,12 @@
    "sido": "대전",
    "area": "유성",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1667481",
@@ -10977,12 +10977,12 @@
    "sido": "대전",
    "area": "유성",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "문화",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1665972",
@@ -11028,12 +11028,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1666245",
@@ -11062,12 +11062,12 @@
    "sido": "대전",
    "area": "유성",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "문화",
-   "ratio": 0.0
+   "ratio": 0.5
   },
   {
    "id": "dq-1669579",
@@ -11096,12 +11096,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1667796",
@@ -11130,12 +11130,12 @@
    "sido": "대전",
    "area": "유성",
    "type": "방문",
-   "applied": 0,
+   "applied": 2,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 2.0
   },
   {
    "id": "dq-1666774",
@@ -11861,12 +11861,12 @@
    "sido": "대전",
    "area": "서구",
    "type": "방문",
-   "applied": 84,
+   "applied": 85,
    "recruit": 5,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 16.8
+   "ratio": 17.0
   },
   {
    "id": "dq-1664086",
@@ -12286,12 +12286,12 @@
    "sido": "광주",
    "area": "서구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "숙박",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1666361",
@@ -12354,12 +12354,12 @@
    "sido": "광주",
    "area": "광산",
    "type": "방문",
-   "applied": 4,
+   "applied": 6,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 4.0
+   "ratio": 6.0
   },
   {
    "id": "dq-1666186",
@@ -12405,12 +12405,12 @@
    "sido": "광주",
    "area": "광산",
    "type": "방문",
-   "applied": 3,
+   "applied": 5,
    "recruit": 12,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.2
+   "ratio": 0.4
   },
   {
    "id": "dq-1668093",
@@ -12507,12 +12507,12 @@
    "sido": "광주",
    "area": "광산",
    "type": "방문",
-   "applied": 1,
+   "applied": 3,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.1
+   "ratio": 0.3
   },
   {
    "id": "dq-1667441",
@@ -12558,12 +12558,12 @@
    "sido": "광주",
    "area": "광산",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 7,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.1
+   "ratio": 0.3
   },
   {
    "id": "dq-1667965",
@@ -12898,12 +12898,12 @@
    "sido": "광주",
    "area": "동구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1668087",
@@ -14309,12 +14309,12 @@
    "sido": "대구",
    "area": "북구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1666687",
@@ -14683,12 +14683,12 @@
    "sido": "대구",
    "area": "중구",
    "type": "방문",
-   "applied": 4,
+   "applied": 5,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.8
+   "ratio": 1.0
   },
   {
    "id": "dq-1669699",
@@ -14734,12 +14734,12 @@
    "sido": "대구",
    "area": "동구",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "뷰티",
-   "ratio": 1.0
+   "ratio": 1.5
   },
   {
    "id": "dq-1667257",
@@ -14751,12 +14751,12 @@
    "sido": "대구",
    "area": "중구",
    "type": "방문",
-   "applied": 5,
+   "applied": 8,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 5.0
+   "ratio": 8.0
   },
   {
    "id": "dq-1669398",
@@ -14785,12 +14785,12 @@
    "sido": "대구",
    "area": "달성",
    "type": "방문",
-   "applied": 4,
+   "applied": 5,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": true,
    "cat": "맛집",
-   "ratio": 1.3
+   "ratio": 1.7
   },
   {
    "id": "dq-1669154",
@@ -14853,12 +14853,12 @@
    "sido": "대구",
    "area": "동구",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 2.0
+   "ratio": 3.0
   },
   {
    "id": "dq-1667227",
@@ -14870,12 +14870,12 @@
    "sido": "대구",
    "area": "중구",
    "type": "방문",
-   "applied": 4,
+   "applied": 6,
    "recruit": 7,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.6
+   "ratio": 0.9
   },
   {
    "id": "dq-1668010",
@@ -14887,12 +14887,12 @@
    "sido": "대구",
    "area": "달서",
    "type": "방문",
-   "applied": 3,
+   "applied": 4,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.5
+   "ratio": 2.0
   },
   {
    "id": "dq-1669554",
@@ -14904,12 +14904,12 @@
    "sido": "대구",
    "area": "동구",
    "type": "방문",
-   "applied": 4,
+   "applied": 5,
    "recruit": 7,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.6
+   "ratio": 0.7
   },
   {
    "id": "dq-1668065",
@@ -15142,12 +15142,12 @@
    "sido": "대구",
    "area": "남구",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 15,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.1
+   "ratio": 0.2
   },
   {
    "id": "dq-1666100",
@@ -15278,12 +15278,12 @@
    "sido": "대구",
    "area": "달서",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 15,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.1
   },
   {
    "id": "dq-1668959",
@@ -15295,12 +15295,12 @@
    "sido": "대구",
    "area": "달서",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1668707",
@@ -15312,12 +15312,12 @@
    "sido": "대구",
    "area": "중구",
    "type": "방문",
-   "applied": 0,
+   "applied": 2,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1666917",
@@ -15346,12 +15346,12 @@
    "sido": "대구",
    "area": "달성",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1666155",
@@ -15380,12 +15380,12 @@
    "sido": "대구",
    "area": "남구",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 8,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.2
+   "ratio": 0.4
   },
   {
    "id": "dq-1670004",
@@ -15414,12 +15414,12 @@
    "sido": "대구",
    "area": "북구",
    "type": "방문",
-   "applied": 0,
+   "applied": 2,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 2.0
   },
   {
    "id": "dq-1670012",
@@ -15431,12 +15431,12 @@
    "sido": "대구",
    "area": "달성",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1666685",
@@ -15482,12 +15482,12 @@
    "sido": "대구",
    "area": "수성",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 4,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.2
+   "ratio": 0.5
   },
   {
    "id": "dq-1666694",
@@ -15499,12 +15499,12 @@
    "sido": "대구",
    "area": "수성",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "뷰티",
-   "ratio": 0.5
+   "ratio": 1.0
   },
   {
    "id": "dq-1669263",
@@ -15567,12 +15567,12 @@
    "sido": "대구",
    "area": "달서",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "뷰티",
-   "ratio": 0.0
+   "ratio": 0.5
   },
   {
    "id": "dq-1668001",
@@ -15635,12 +15635,12 @@
    "sido": "대구",
    "area": "동구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.1
   },
   {
    "id": "dq-1667753",
@@ -15754,12 +15754,12 @@
    "sido": "대구",
    "area": "달서",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1667253",
@@ -16128,12 +16128,12 @@
    "sido": "대구",
    "area": "북구",
    "type": "방문",
-   "applied": 18,
+   "applied": 19,
    "recruit": 2,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 9.0
+   "ratio": 9.5
   },
   {
    "id": "dq-1663843",
@@ -16230,12 +16230,12 @@
    "sido": "대구",
    "area": "북구",
    "type": "방문",
-   "applied": 3,
+   "applied": 4,
    "recruit": 3,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.0
+   "ratio": 1.3
   },
   {
    "id": "dq-1664094",
@@ -17505,12 +17505,12 @@
    "sido": "경북",
    "area": "포항",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.2
+   "ratio": 0.4
   },
   {
    "id": "dq-1668006",
@@ -19953,12 +19953,12 @@
    "sido": "경남",
    "area": "양산",
    "type": "방문",
-   "applied": 6,
+   "applied": 7,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 3.0
+   "ratio": 3.5
   },
   {
    "id": "dq-1667738",
@@ -19970,12 +19970,12 @@
    "sido": "울산",
    "area": "북구",
    "type": "방문",
-   "applied": 7,
+   "applied": 8,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.4
+   "ratio": 1.6
   },
   {
    "id": "dq-1666985",
@@ -20072,12 +20072,12 @@
    "sido": "경남",
    "area": "양산",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.4
+   "ratio": 0.6
   },
   {
    "id": "dq-1669031",
@@ -20361,12 +20361,12 @@
    "sido": "울산",
    "area": "북구",
    "type": "방문",
-   "applied": 0,
+   "applied": 2,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1668369",
@@ -20378,12 +20378,12 @@
    "sido": "경남",
    "area": "창원",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.3
+   "ratio": 0.7
   },
   {
    "id": "dq-1668882",
@@ -20599,12 +20599,12 @@
    "sido": "경남",
    "area": "창녕",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.5
   },
   {
    "id": "dq-1669411",
@@ -20633,12 +20633,12 @@
    "sido": "경남",
    "area": "창원",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1666598",
@@ -20667,12 +20667,12 @@
    "sido": "경남",
    "area": "창원",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "뷰티",
-   "ratio": 0.3
+   "ratio": 0.7
   },
   {
    "id": "dq-1667113",
@@ -20752,12 +20752,12 @@
    "sido": "경남",
    "area": "함안",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.5
   },
   {
    "id": "dq-1667644",
@@ -20905,12 +20905,12 @@
    "sido": "경남",
    "area": "김해",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1669445",
@@ -21092,12 +21092,12 @@
    "sido": "울산",
    "area": "남구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1667685",
@@ -21126,12 +21126,12 @@
    "sido": "부산",
    "area": "기장",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 1,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "문화",
-   "ratio": 0.0
+   "ratio": 1.0
   },
   {
    "id": "dq-1669660",
@@ -21262,12 +21262,12 @@
    "sido": "부산",
    "area": "중구",
    "type": "방문",
-   "applied": 0,
+   "applied": 1,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.0
+   "ratio": 0.3
   },
   {
    "id": "dq-1668949",
@@ -22146,12 +22146,12 @@
    "sido": "부산",
    "area": "수영",
    "type": "방문",
-   "applied": 15,
+   "applied": 17,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.5
+   "ratio": 1.7
   },
   {
    "id": "dq-1668435",
@@ -22180,12 +22180,12 @@
    "sido": "부산",
    "area": "남구",
    "type": "방문",
-   "applied": 8,
+   "applied": 9,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.6
+   "ratio": 1.8
   },
   {
    "id": "dq-1667056",
@@ -22197,12 +22197,12 @@
    "sido": "부산",
    "area": "수영",
    "type": "방문",
-   "applied": 5,
+   "applied": 6,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": true,
    "cat": "맛집",
-   "ratio": 1.0
+   "ratio": 1.2
   },
   {
    "id": "dq-1670134",
@@ -22214,12 +22214,12 @@
    "sido": "부산",
    "area": "수영",
    "type": "방문",
-   "applied": 5,
+   "applied": 6,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.7
+   "ratio": 2.0
   },
   {
    "id": "dq-1667841",
@@ -22265,12 +22265,12 @@
    "sido": "부산",
    "area": "동래",
    "type": "방문",
-   "applied": 3,
+   "applied": 4,
    "recruit": 7,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.4
+   "ratio": 0.6
   },
   {
    "id": "dq-1668950",
@@ -22299,12 +22299,12 @@
    "sido": "부산",
    "area": "진구",
    "type": "방문",
-   "applied": 3,
+   "applied": 5,
    "recruit": 4,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.8
+   "ratio": 1.2
   },
   {
    "id": "dq-1667954",
@@ -22316,12 +22316,12 @@
    "sido": "부산",
    "area": "동래",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 6,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.3
+   "ratio": 0.5
   },
   {
    "id": "dq-1667258",
@@ -22452,12 +22452,12 @@
    "sido": "부산",
    "area": "연제",
    "type": "방문",
-   "applied": 1,
+   "applied": 2,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "문화",
-   "ratio": 0.3
+   "ratio": 0.7
   },
   {
    "id": "dq-1666931",
@@ -22622,12 +22622,12 @@
    "sido": "부산",
    "area": "동래",
    "type": "방문",
-   "applied": 2,
+   "applied": 3,
    "recruit": 3,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.7
+   "ratio": 1.0
   },
   {
    "id": "dq-1670123",
@@ -25741,40 +25741,6 @@
    "ratio": 0.5
   },
   {
-   "id": "mb-1154412",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154412",
-   "title": "떡맛스러움",
-   "offer": "여러가지 선물세트 (5만원 상당 / 포장체험)",
-   "media": "blog",
-   "sido": "경기",
-   "area": "의정부 민락동",
-   "type": "방문",
-   "applied": 35,
-   "recruit": 5,
-   "deadline": "2026-11-24",
-   "extra_mission": false,
-   "cat": "포장",
-   "ratio": 7.0
-  },
-  {
-   "id": "mb-1154570",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154570",
-   "title": "오렌지베이글",
-   "offer": "2만5천원 체험권 (필수주문 있을 수 있음. 매달 제공내역 달라짐\r\n** 캠페인미션 확인 후 진행 필수\r\n\r\n- 블로그리뷰 + 영수증리뷰 작성 필수 캠페인입니다",
-   "media": "blog",
-   "sido": "경기",
-   "area": "수원 고색동",
-   "type": "방문",
-   "applied": 21,
-   "recruit": 5,
-   "deadline": "2026-11-25",
-   "extra_mission": true,
-   "cat": "기타",
-   "ratio": 4.2
-  },
-  {
    "id": "mb-1155529",
    "site": "미블",
    "url": "https://www.mrblog.net/campaigns/1155529",
@@ -25784,29 +25750,63 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 43,
+   "applied": 46,
    "recruit": 5,
    "deadline": "2026-11-29",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 8.6
+   "ratio": 9.2
   },
   {
-   "id": "mb-1154141",
+   "id": "mb-1154360",
    "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154141",
-   "title": "상무초밥 일산라페스타점",
-   "offer": "3만 5천원 식사권 \r\n\r\n* 블로그리뷰 1개+영수증리뷰 1개 작성 필수",
+   "url": "https://www.mrblog.net/campaigns/1154360",
+   "title": "소담촌 수원영통점",
+   "offer": "1. 월남쌈샤브 2인 + 고기 1인분\r\n2. 버섯샤브 2인\r\n3. 와규샤브 2인\r\n4. 얼큰미나리샤브 2인\r\n중 택 1",
    "media": "blog",
    "sido": "경기",
-   "area": "일산 장항동",
+   "area": "수원 영통역",
    "type": "방문",
-   "applied": 28,
+   "applied": 29,
+   "recruit": 5,
+   "deadline": "2026-11-24",
+   "extra_mission": false,
+   "cat": "맛집",
+   "ratio": 5.8
+  },
+  {
+   "id": "mb-1154740",
+   "site": "미블",
+   "url": "https://www.mrblog.net/campaigns/1154740",
+   "title": "황토성",
+   "offer": "족살찌개 (16,000원) + 배송비 (3,200원) = 19,200원\r\n\r\n- 블로그 리뷰 1개 + 스토어 리뷰 1개\r\n\r\n** 상품 선결제 주문 후 마감일 이후 리뷰 확인 완료 후 페이백 진행",
+   "media": "blog",
+   "sido": "배송·전국",
+   "area": "",
+   "type": "배송",
+   "applied": 112,
+   "recruit": 5,
+   "deadline": "2026-11-25",
+   "extra_mission": true,
+   "cat": "제품",
+   "ratio": 22.4
+  },
+  {
+   "id": "mb-1154421",
+   "site": "미블",
+   "url": "https://www.mrblog.net/campaigns/1154421",
+   "title": "남도해물",
+   "offer": "5만원식사권\r\n\r\n(킹크랩,대게,랍스타,전복,새우,관자,가리비,조개,홍가리비,소라,해삼,멍게,낙지,꽃게,관자,키조개,문어,석화,굴 등등) \r\n** 업체측과 메뉴 소통 후 진행 필수  / 차액 발생 시 결제 필수 \r\n",
+   "media": "blog",
+   "sido": "서울",
+   "area": "노량진역",
+   "type": "방문",
+   "applied": 23,
    "recruit": 5,
    "deadline": "2026-11-24",
    "extra_mission": true,
    "cat": "맛집",
-   "ratio": 5.6
+   "ratio": 4.6
   },
   {
    "id": "mb-1155141",
@@ -25826,21 +25826,38 @@
    "ratio": 4.4
   },
   {
-   "id": "mb-1154813",
+   "id": "mb-1154844",
    "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154813",
-   "title": "PDRN 모션 바이브 아이 리프터",
-   "offer": "PDRN 모션 바이브 아이 리프터\r\n\r\n* 캠페인미션 확인 후 진행 필수 < 미확인 시 진행 불가",
-   "media": "reels",
+   "url": "https://www.mrblog.net/campaigns/1154844",
+   "title": "빨간거짱구네 동탄점",
+   "offer": "6만원 식사권 (2인 체험)\r\n\r\n** 포장 불가",
+   "media": "blog",
+   "sido": "경기",
+   "area": "화성 동탄",
+   "type": "방문",
+   "applied": 38,
+   "recruit": 5,
+   "deadline": "2026-11-28",
+   "extra_mission": false,
+   "cat": "포장",
+   "ratio": 7.6
+  },
+  {
+   "id": "mb-1155564",
+   "site": "미블",
+   "url": "https://www.mrblog.net/campaigns/1155564",
+   "title": "그린잇",
+   "offer": "배부른 단팥붕어빵 or  배부른 슈크림붕어빵",
+   "media": "blog",
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 20,
+   "applied": 70,
    "recruit": 5,
-   "deadline": "2026-11-25",
+   "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 4.0
+   "ratio": 14.0
   },
   {
    "id": "mb-1155531",
@@ -25852,63 +25869,29 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 43,
+   "applied": 46,
    "recruit": 5,
    "deadline": "2026-11-29",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 8.6
+   "ratio": 9.2
   },
   {
-   "id": "mb-1153994",
+   "id": "mb-1154422",
    "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1153994",
-   "title": "푼푼샌드",
-   "offer": "샐러드 주3회 or 샐반샌반 주3회 or 샌드위치 주3회 중 택1\r\n\r\n★11월 30일 / 12월2일 / 12월4일 총 3회★\r\n\r\n** 상품 마지막 배송 후 보냉백 회수 필수이며 보냉백 미회수시 개당 4,500원 ",
+   "url": "https://www.mrblog.net/campaigns/1154422",
+   "title": "센텀마마뷔페",
+   "offer": "성인 2인 마마뷔페 식사권(64,000원 ~ 90,000원 상당)\r\n\r\n** 2인 체험만 가능\r\n**체험 기간: 2026년 7월29일(목) ~ 8월14일(일)\r\n-  선정 발표는 7/28일부터 안내 예정입니다.\r\n-",
    "media": "blog",
-   "sido": "배송·전국",
-   "area": "",
-   "type": "배송",
-   "applied": 44,
-   "recruit": 5,
-   "deadline": "2026-11-24",
-   "extra_mission": false,
-   "cat": "제품",
-   "ratio": 8.8
-  },
-  {
-   "id": "mb-1154363",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154363",
-   "title": "라장양갈비 양꼬치무한리필",
-   "offer": "2인 양꼬치 or 2인 생양어깨등심 무한리필 식사권 (1인 최대 25,900원 상당)\r\n\r\n- 블로그리뷰 + 영수증리뷰 작성 필수 캠페인입니다\r\n\r\n** 캠페인미션 확인 후 진행 필수",
-   "media": "blog",
-   "sido": "서울",
-   "area": "홍대입구",
+   "sido": "부산",
+   "area": "해운대",
    "type": "방문",
-   "applied": 34,
+   "applied": 86,
    "recruit": 5,
    "deadline": "2026-11-24",
    "extra_mission": true,
    "cat": "맛집",
-   "ratio": 6.8
-  },
-  {
-   "id": "mb-1154001",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154001",
-   "title": "정가네춘천닭갈비 천안두정점",
-   "offer": "닭갈비 2인 + 사리1 + 볶음밥 1 제공\r\n\r\n** 블로그리뷰 1개 + 영수증리뷰 1개 작성 필수\r\n** 캠페인미션 확인 후 진행 필수\r\n미확인 시 진행 불가",
-   "media": "blog",
-   "sido": "충남",
-   "area": "천안 두정동",
-   "type": "방문",
-   "applied": 21,
-   "recruit": 5,
-   "deadline": "2026-11-24",
-   "extra_mission": true,
-   "cat": "맛집",
-   "ratio": 4.2
+   "ratio": 17.2
   },
   {
    "id": "mb-1154361",
@@ -25920,73 +25903,56 @@
    "sido": "서울",
    "area": "종로구 관철",
    "type": "방문",
-   "applied": 22,
+   "applied": 23,
    "recruit": 5,
    "deadline": "2026-11-24",
    "extra_mission": true,
    "cat": "맛집",
-   "ratio": 4.4
+   "ratio": 4.6
   },
   {
-   "id": "mb-1154430",
+   "id": "mb-1154465",
    "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154430",
-   "title": "하우스오브디라이프스타일키친 원그로브점",
-   "offer": "8만원 식사권 (주류제외)",
+   "url": "https://www.mrblog.net/campaigns/1154465",
+   "title": "호보식당 양재직영점",
+   "offer": "50,000원 식사권",
    "media": "blog",
    "sido": "서울",
-   "area": "강서구 마곡동",
+   "area": "서초구 양재동",
    "type": "방문",
-   "applied": 52,
+   "applied": 33,
    "recruit": 5,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "맛집",
+   "ratio": 6.6
+  },
+  {
+   "id": "mb-1155159",
+   "site": "미블",
+   "url": "https://www.mrblog.net/campaigns/1155159",
+   "title": "상주할매집곰탕",
+   "offer": "아기곰탕 3팩 세트 (16,500원) + 배송비 (4,000원) = 20,500원\r\n\r\n- 블로그 리뷰 1개 + 스토어 리뷰 1개\r\n\r\n** 상품 선결제 주문 후 마감일 이후 리뷰 확인 완료 후 페이백 진행",
+   "media": "blog",
+   "sido": "배송·전국",
+   "area": "",
+   "type": "배송",
+   "applied": 52,
+   "recruit": 5,
+   "deadline": "2026-11-28",
+   "extra_mission": true,
+   "cat": "제품",
    "ratio": 10.4
   },
   {
-   "id": "mb-1154074",
+   "id": "mb-1154073",
    "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154074",
-   "title": "쎈수학러닝센터 정왕제일학원",
-   "offer": "18만원~21만원 체험 수업 (1일~5일) \r\n** 월~금 14:00~18:00 타임만 가능\r\n** 1일체험부터 5일체험까지 가능\r\n** 체험단은 1일 , 학생대리체험은 5일체험가능",
+   "url": "https://www.mrblog.net/campaigns/1154073",
+   "title": "칠링",
+   "offer": "후카 + 진토닉 2잔 (5만원 상당)",
    "media": "blog",
    "sido": "기타",
-   "area": "정왕역",
-   "type": "방문",
-   "applied": 0,
-   "recruit": 5,
-   "deadline": "2026-11-24",
-   "extra_mission": false,
-   "cat": "기타",
-   "ratio": 0.0
-  },
-  {
-   "id": "mb-1154035",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154035",
-   "title": "자산어보",
-   "offer": "4만원 식사권",
-   "media": "blog",
-   "sido": "울산",
-   "area": "산하동",
-   "type": "방문",
-   "applied": 2,
-   "recruit": 5,
-   "deadline": "2026-11-24",
-   "extra_mission": false,
-   "cat": "맛집",
-   "ratio": 0.4
-  },
-  {
-   "id": "mb-1154075",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154075",
-   "title": "한국풍수컨설팅협회",
-   "offer": "스폐셜 60분 이용권 (10만원 상당)",
-   "media": "reels",
-   "sido": "서울",
-   "area": "강남역",
+   "area": "발산역",
    "type": "방문",
    "applied": 1,
    "recruit": 5,
@@ -25996,21 +25962,21 @@
    "ratio": 0.2
   },
   {
-   "id": "mb-1154011",
+   "id": "mb-1154028",
    "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154011",
-   "title": "연희 38 애비뉴",
-   "offer": "5만원 식사권",
+   "url": "https://www.mrblog.net/campaigns/1154028",
+   "title": "쿠마",
+   "offer": "전체 메뉴 중 2가지 제공\r\n** 주류 별도 주문, 1인당 1주류 주문필수",
    "media": "blog",
-   "sido": "서울",
-   "area": "서대문구 연희동",
+   "sido": "기타",
+   "area": "공릉역",
    "type": "방문",
-   "applied": 9,
+   "applied": 1,
    "recruit": 5,
    "deadline": "2026-11-24",
    "extra_mission": false,
-   "cat": "맛집",
-   "ratio": 1.8
+   "cat": "기타",
+   "ratio": 0.2
   },
   {
    "id": "mb-1154044",
@@ -26030,21 +25996,55 @@
    "ratio": 0.4
   },
   {
-   "id": "mb-1154082",
+   "id": "mb-1154022",
    "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1154082",
-   "title": "빡센민물장어 가평점",
-   "offer": "5만원 식사권\r\n\r\n- 클립리뷰 + 영수증리뷰 작성 필수 캠페인입니다\r\n\r\n** 캠페인미션 확인 후 진행 필수\r\n\r\n[클립체험단]",
-   "media": "clip",
-   "sido": "경기",
-   "area": "가평",
+   "url": "https://www.mrblog.net/campaigns/1154022",
+   "title": "1987 루프탑라운지 더 마에스트로점",
+   "offer": "5만원 식사권\r\n\r\n** 당일 노쇼 및 예약시간 엄수\r\n** 매장공연 22:30까지 관람 필수",
+   "media": "blog",
+   "sido": "기타",
+   "area": "뚝섬역",
    "type": "방문",
    "applied": 1,
    "recruit": 5,
    "deadline": "2026-11-24",
-   "extra_mission": true,
-   "cat": "맛집",
+   "extra_mission": false,
+   "cat": "문화",
    "ratio": 0.2
+  },
+  {
+   "id": "mb-1153994",
+   "site": "미블",
+   "url": "https://www.mrblog.net/campaigns/1153994",
+   "title": "푼푼샌드",
+   "offer": "샐러드 주3회 or 샐반샌반 주3회 or 샌드위치 주3회 중 택1\r\n\r\n★11월 30일 / 12월2일 / 12월4일 총 3회★\r\n\r\n** 상품 마지막 배송 후 보냉백 회수 필수이며 보냉백 미회수시 개당 4,500원 ",
+   "media": "blog",
+   "sido": "배송·전국",
+   "area": "",
+   "type": "배송",
+   "applied": 44,
+   "recruit": 5,
+   "deadline": "2026-11-24",
+   "extra_mission": false,
+   "cat": "제품",
+   "ratio": 8.8
+  },
+  {
+   "id": "mb-1154011",
+   "site": "미블",
+   "url": "https://www.mrblog.net/campaigns/1154011",
+   "title": "연희 38 애비뉴",
+   "offer": "5만원 식사권",
+   "media": "blog",
+   "sido": "서울",
+   "area": "서대문구 연희동",
+   "type": "방문",
+   "applied": 9,
+   "recruit": 5,
+   "deadline": "2026-11-24",
+   "extra_mission": false,
+   "cat": "맛집",
+   "ratio": 1.8
   },
   {
    "id": "mb-1154414",
@@ -26149,38 +26149,72 @@
    "ratio": 0.0
   },
   {
-   "id": "mb-1153002",
+   "id": "mb-1153993",
    "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1153002",
-   "title": "두바이 수영점",
-   "offer": "5만원 식사권\r\n\r\n- 클립리뷰 + 영수증리뷰 작성 필수 캠페인입니다\r\n\r\n** 캠페인미션 확인 후 진행 필수",
-   "media": "clip",
-   "sido": "부산",
-   "area": "수영역",
-   "type": "방문",
-   "applied": 3,
-   "recruit": 5,
-   "deadline": "2026-11-24",
-   "extra_mission": true,
-   "cat": "문화",
-   "ratio": 0.6
-  },
-  {
-   "id": "mb-1153998",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1153998",
-   "title": "캐빈커피 사월",
-   "offer": "캐빈세트(사과샌드위치+아메리카노) + 음료1잔 + 꽃 2송이\r\n\r\n\r\n** 캠페인미션 확인 후 진행 필수",
+   "url": "https://www.mrblog.net/campaigns/1153993",
+   "title": "타마시초밥",
+   "offer": "3만원 식사권",
    "media": "blog",
-   "sido": "대구",
-   "area": "시지",
+   "sido": "경기",
+   "area": "고양 장항동",
    "type": "방문",
-   "applied": 10,
+   "applied": 14,
    "recruit": 5,
    "deadline": "2026-11-24",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 2.0
+   "ratio": 2.8
+  },
+  {
+   "id": "mb-1153001",
+   "site": "미블",
+   "url": "https://www.mrblog.net/campaigns/1153001",
+   "title": "두바이 수영점",
+   "offer": "5만원 식사권\r\n\r\n- 릴스리뷰 + 영수증리뷰 작성 필수 캠페인입니다\r\n\r\n** 캠페인미션 확인 후 진행 필수",
+   "media": "reels",
+   "sido": "부산",
+   "area": "수영역",
+   "type": "방문",
+   "applied": 1,
+   "recruit": 5,
+   "deadline": "2026-11-24",
+   "extra_mission": true,
+   "cat": "문화",
+   "ratio": 0.2
+  },
+  {
+   "id": "mb-1153990",
+   "site": "미블",
+   "url": "https://www.mrblog.net/campaigns/1153990",
+   "title": "샐럽스프 전북대학교병원점",
+   "offer": "울트라프로틴박스 1개 + 클럽올리브샌드위치 1개 + 토마토볼 1개 + 카사바칩 1개 + ABC주스 1개",
+   "media": "blog",
+   "sido": "전북",
+   "area": "전주 금암동",
+   "type": "방문",
+   "applied": 16,
+   "recruit": 5,
+   "deadline": "2026-11-24",
+   "extra_mission": false,
+   "cat": "기타",
+   "ratio": 3.2
+  },
+  {
+   "id": "mb-1153996",
+   "site": "미블",
+   "url": "https://www.mrblog.net/campaigns/1153996",
+   "title": "유멜라뷰티",
+   "offer": "헤어라인 (30만원 상당)\r\n\r\n** 20대~30대만 체험 가능 합니다.",
+   "media": "blog",
+   "sido": "서울",
+   "area": "선릉역",
+   "type": "방문",
+   "applied": 2,
+   "recruit": 5,
+   "deadline": "2026-11-24",
+   "extra_mission": false,
+   "cat": "뷰티",
+   "ratio": 0.4
   },
   {
    "id": "mb-1154004",
@@ -26200,57 +26234,6 @@
    "ratio": 1.8
   },
   {
-   "id": "mb-1153993",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1153993",
-   "title": "타마시초밥",
-   "offer": "3만원 식사권",
-   "media": "blog",
-   "sido": "경기",
-   "area": "고양 장항동",
-   "type": "방문",
-   "applied": 14,
-   "recruit": 5,
-   "deadline": "2026-11-24",
-   "extra_mission": false,
-   "cat": "맛집",
-   "ratio": 2.8
-  },
-  {
-   "id": "mb-1153991",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1153991",
-   "title": "도시락형제들",
-   "offer": "도시락 3개 (포장체험)\r\n**도시락용기는 2~3일후 매장으로 반납 필수\r\n**도시락 픽업 시 주의 (던지기 X) \r\n** 핸드폰 촬영 가능",
-   "media": "blog",
-   "sido": "대구",
-   "area": "두류동",
-   "type": "방문",
-   "applied": 3,
-   "recruit": 5,
-   "deadline": "2026-11-24",
-   "extra_mission": false,
-   "cat": "포장",
-   "ratio": 0.6
-  },
-  {
-   "id": "mb-1153995",
-   "site": "미블",
-   "url": "https://www.mrblog.net/campaigns/1153995",
-   "title": "키마이",
-   "offer": "5만원 식사권\r\n\r\n** 클립리뷰 1개 + 영수증리뷰 1개 작성 필수",
-   "media": "clip",
-   "sido": "서울",
-   "area": "용산구 이태원",
-   "type": "방문",
-   "applied": 3,
-   "recruit": 5,
-   "deadline": "2026-11-24",
-   "extra_mission": true,
-   "cat": "맛집",
-   "ratio": 0.6
-  },
-  {
    "id": "np-1795497934",
    "site": "놀러와체험단",
    "url": "https://www.cometoplay.kr/item.php?it_id=1795497934",
@@ -26260,12 +26243,12 @@
    "sido": "경기",
    "area": "화성",
    "type": "방문",
-   "applied": 4,
+   "applied": 5,
    "recruit": 4,
    "deadline": "2026-12-02",
    "extra_mission": false,
    "cat": "기타",
-   "ratio": 1.0
+   "ratio": 1.2
   },
   {
    "id": "np-1795486401",
@@ -26447,12 +26430,12 @@
    "sido": "서울",
    "area": "영등포",
    "type": "방문",
-   "applied": 10,
+   "applied": 11,
    "recruit": 10,
    "deadline": "2026-12-06",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.0
+   "ratio": 1.1
   },
   {
    "id": "np-1795484960",
@@ -26532,12 +26515,12 @@
    "sido": "서울",
    "area": "목동",
    "type": "방문",
-   "applied": 14,
+   "applied": 15,
    "recruit": 10,
    "deadline": "2026-12-01",
    "extra_mission": false,
    "cat": "숙박",
-   "ratio": 1.4
+   "ratio": 1.5
   },
   {
    "id": "np-1795484736",
@@ -28045,12 +28028,12 @@
    "sido": "충북",
    "area": "세종",
    "type": "방문",
-   "applied": 9,
+   "applied": 10,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "기타",
-   "ratio": 0.9
+   "ratio": 1.0
   },
   {
    "id": "np-1795140713",
@@ -28147,12 +28130,12 @@
    "sido": "경기",
    "area": "용인",
    "type": "방문",
-   "applied": 28,
+   "applied": 29,
    "recruit": 10,
    "deadline": "2026-12-02",
    "extra_mission": false,
    "cat": "기타",
-   "ratio": 2.8
+   "ratio": 2.9
   },
   {
    "id": "np-1795136685",
@@ -28555,12 +28538,12 @@
    "sido": "서울",
    "area": "동작",
    "type": "방문",
-   "applied": 15,
+   "applied": 16,
    "recruit": 10,
    "deadline": "2026-11-26",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 1.5
+   "ratio": 1.6
   },
   {
    "id": "np-1795134561",
@@ -29473,12 +29456,12 @@
    "sido": "서울",
    "area": "강남",
    "type": "방문",
-   "applied": 17,
+   "applied": 18,
    "recruit": 5,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 3.4
+   "ratio": 3.6
   },
   {
    "id": "np-1795052120",
@@ -29694,12 +29677,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 4,
+   "applied": 5,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 0.4
+   "ratio": 0.5
   },
   {
    "id": "np-1795481896",
@@ -29711,12 +29694,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 8,
+   "applied": 9,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 0.8
+   "ratio": 0.9
   },
   {
    "id": "np-1795481825",
@@ -29983,12 +29966,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 14,
+   "applied": 15,
    "recruit": 20,
    "deadline": "2026-11-29",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 0.7
+   "ratio": 0.8
   },
   {
    "id": "np-1795391510",
@@ -30272,12 +30255,12 @@
    "sido": "서울",
    "area": "강남구",
    "type": "방문",
-   "applied": 59,
+   "applied": 60,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "뷰티",
-   "ratio": 29.5
+   "ratio": 30.0
   },
   {
    "id": "as-1768893683",
@@ -30459,12 +30442,12 @@
    "sido": "경남",
    "area": "창원시",
    "type": "방문",
-   "applied": 9,
+   "applied": 10,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 0.9
+   "ratio": 1.0
   },
   {
    "id": "as-1782686128",
@@ -33604,12 +33587,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 9,
+   "applied": 10,
    "recruit": 5,
    "deadline": "2026-12-01",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 1.8
+   "ratio": 2.0
   },
   {
    "id": "as-1795488919691",
@@ -33621,12 +33604,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 200,
+   "applied": 210,
    "recruit": 20,
    "deadline": "2026-12-01",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 10.0
+   "ratio": 10.5
   },
   {
    "id": "as-1795488786850",
@@ -33638,12 +33621,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 199,
+   "applied": 206,
    "recruit": 20,
    "deadline": "2026-12-01",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 9.9
+   "ratio": 10.3
   },
   {
    "id": "as-1795437543166",
@@ -33672,7 +33655,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 16,
+   "applied": 17,
    "recruit": 20,
    "deadline": "2026-12-01",
    "extra_mission": false,
@@ -33689,12 +33672,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 55,
+   "applied": 56,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 27.5
+   "ratio": 28.0
   },
   {
    "id": "as-1795413665495",
@@ -33706,12 +33689,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 87,
+   "applied": 89,
    "recruit": 20,
    "deadline": "2026-12-01",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 4.3
+   "ratio": 4.5
   },
   {
    "id": "as-1794724725328",
@@ -33723,12 +33706,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 28,
+   "applied": 29,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 2.8
+   "ratio": 2.9
   },
   {
    "id": "as-1784178152",
@@ -33893,12 +33876,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 144,
+   "applied": 145,
    "recruit": 5,
    "deadline": "2026-11-26",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 28.8
+   "ratio": 29.0
   },
   {
    "id": "as-1795056075548",
@@ -33910,12 +33893,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 100,
+   "applied": 101,
    "recruit": 2,
    "deadline": "2026-11-26",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 50.0
+   "ratio": 50.5
   },
   {
    "id": "as-1794991842683",
@@ -33927,12 +33910,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 44,
+   "applied": 45,
    "recruit": 2,
    "deadline": "2026-11-26",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 22.0
+   "ratio": 22.5
   },
   {
    "id": "as-1794810861859",
@@ -33978,12 +33961,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 106,
+   "applied": 107,
    "recruit": 5,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 21.2
+   "ratio": 21.4
   },
   {
    "id": "as-1794986321315",
@@ -33995,12 +33978,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 326,
+   "applied": 329,
    "recruit": 20,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 16.3
+   "ratio": 16.4
   },
   {
    "id": "as-1794974280607",
@@ -34012,7 +33995,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 7,
+   "applied": 8,
    "recruit": 15,
    "deadline": "2026-11-26",
    "extra_mission": true,
@@ -34165,12 +34148,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 27,
+   "applied": 28,
    "recruit": 3,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 9.0
+   "ratio": 9.3
   },
   {
    "id": "as-1794966892784",
@@ -34182,12 +34165,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 26,
+   "applied": 27,
    "recruit": 3,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 8.7
+   "ratio": 9.0
   },
   {
    "id": "as-1794966922824",
@@ -34199,12 +34182,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 2,
+   "applied": 3,
    "recruit": 3,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 0.7
+   "ratio": 1.0
   },
   {
    "id": "as-1794967030099",
@@ -34216,12 +34199,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 21,
+   "applied": 22,
    "recruit": 3,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 7.0
+   "ratio": 7.3
   },
   {
    "id": "as-1794966253555",
@@ -34335,12 +34318,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 30,
+   "applied": 31,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 3.0
+   "ratio": 3.1
   },
   {
    "id": "as-1794469589624",
@@ -34386,12 +34369,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 27,
+   "applied": 28,
    "recruit": 3,
    "deadline": "2026-11-26",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 9.0
+   "ratio": 9.3
   },
   {
    "id": "as-1794275965051",
@@ -34658,7 +34641,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 487,
+   "applied": 488,
    "recruit": 20,
    "deadline": "2026-11-30",
    "extra_mission": false,
@@ -34675,12 +34658,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 39,
+   "applied": 40,
    "recruit": 20,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 1.9
+   "ratio": 2.0
   },
   {
    "id": "as-1793327646910",
@@ -34726,12 +34709,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 31,
+   "applied": 32,
    "recruit": 3,
    "deadline": "2026-11-27",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 10.3
+   "ratio": 10.7
   },
   {
    "id": "as-1792419520",
@@ -34777,12 +34760,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 202,
+   "applied": 203,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 20.2
+   "ratio": 20.3
   },
   {
    "id": "as-1792926085941",
@@ -34794,7 +34777,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 89,
+   "applied": 90,
    "recruit": 30,
    "deadline": "2026-11-28",
    "extra_mission": false,
@@ -34811,7 +34794,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 402,
+   "applied": 403,
    "recruit": 20,
    "deadline": "2026-11-30",
    "extra_mission": false,
@@ -35287,7 +35270,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 26,
+   "applied": 25,
    "recruit": 15,
    "deadline": "2026-11-26",
    "extra_mission": false,
@@ -35610,12 +35593,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 334,
+   "applied": 336,
    "recruit": 20,
    "deadline": "2026-11-27",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 16.7
+   "ratio": 16.8
   },
   {
    "id": "as-1781748052",
@@ -35627,12 +35610,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 30,
+   "applied": 29,
    "recruit": 20,
    "deadline": "2026-11-26",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 1.5
+   "ratio": 1.4
   },
   {
    "id": "as-1781595642",
@@ -35644,7 +35627,7 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 18,
+   "applied": 19,
    "recruit": 20,
    "deadline": "2026-11-25",
    "extra_mission": false,
@@ -35678,12 +35661,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 10,
+   "applied": 11,
    "recruit": 8,
    "deadline": "2026-11-26",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 1.2
+   "ratio": 1.4
   },
   {
    "id": "as-1780047259",
@@ -35797,12 +35780,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 8,
+   "applied": 9,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 0.8
+   "ratio": 0.9
   },
   {
    "id": "as-1777860808",
@@ -35916,12 +35899,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 41,
+   "applied": 42,
    "recruit": 2,
    "deadline": "2026-11-30",
    "extra_mission": true,
    "cat": "제품",
-   "ratio": 20.5
+   "ratio": 21.0
   },
   {
    "id": "as-1777864713",
@@ -36341,12 +36324,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 149,
+   "applied": 150,
    "recruit": 5,
    "deadline": "2026-11-26",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 29.8
+   "ratio": 30.0
   },
   {
    "id": "as-1758532449",
@@ -36409,12 +36392,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 231,
+   "applied": 232,
    "recruit": 5,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 46.2
+   "ratio": 46.4
   },
   {
    "id": "as-1769487800",
@@ -36426,12 +36409,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 393,
+   "applied": 394,
    "recruit": 5,
    "deadline": "2026-11-27",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 78.6
+   "ratio": 78.8
   },
   {
    "id": "as-1769406480",
@@ -36511,12 +36494,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 305,
+   "applied": 306,
    "recruit": 10,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 30.5
+   "ratio": 30.6
   },
   {
    "id": "as-1768455919",
@@ -36579,12 +36562,12 @@
    "sido": "배송·전국",
    "area": "",
    "type": "배송",
-   "applied": 126,
+   "applied": 127,
    "recruit": 10,
    "deadline": "2026-11-27",
    "extra_mission": false,
    "cat": "제품",
-   "ratio": 12.6
+   "ratio": 12.7
   },
   {
    "id": "as-1767943377",
@@ -37191,12 +37174,12 @@
    "sido": "기타",
    "area": "",
    "type": "기자단",
-   "applied": 54,
+   "applied": 55,
    "recruit": 20,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "기타",
-   "ratio": 2.7
+   "ratio": 2.8
   },
   {
    "id": "as-1787708240",
@@ -37225,12 +37208,12 @@
    "sido": "기타",
    "area": "",
    "type": "기자단",
-   "applied": 55,
+   "applied": 56,
    "recruit": 3,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "문화",
-   "ratio": 18.3
+   "ratio": 18.7
   },
   {
    "id": "as-1787635806",
@@ -37344,12 +37327,12 @@
    "sido": "기타",
    "area": "",
    "type": "기자단",
-   "applied": 121,
+   "applied": 122,
    "recruit": 30,
    "deadline": "2026-11-30",
    "extra_mission": false,
    "cat": "기타",
-   "ratio": 4.0
+   "ratio": 4.1
   },
   {
    "id": "as-1767760463",
@@ -37361,12 +37344,12 @@
    "sido": "기타",
    "area": "",
    "type": "기자단",
-   "applied": 112,
+   "applied": 113,
    "recruit": 20,
    "deadline": "2026-11-29",
    "extra_mission": false,
    "cat": "기타",
-   "ratio": 5.6
+   "ratio": 5.7
   },
   {
    "id": "as-1774851552",
@@ -37446,12 +37429,12 @@
    "sido": "기타",
    "area": "",
    "type": "기자단",
-   "applied": 62,
+   "applied": 63,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "기타",
-   "ratio": 6.2
+   "ratio": 6.3
   },
   {
    "id": "as-1742634830",
@@ -37514,12 +37497,12 @@
    "sido": "기타",
    "area": "",
    "type": "기자단",
-   "applied": 92,
+   "applied": 93,
    "recruit": 10,
    "deadline": "2026-11-25",
    "extra_mission": false,
    "cat": "맛집",
-   "ratio": 9.2
+   "ratio": 9.3
   },
   {
    "id": "as-1700543342",
