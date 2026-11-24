@@ -1,30 +1,5 @@
 [
 {
-"url": "https://xn--939au0g4vj8sq.net/robots.txt",
-"status": "ERR ConnectTimeout",
-"bytes": 0
-},
-{
-"url": "https://xn--939au0g4vj8sq.net/cp/?ca=20",
-"status": "SKIP robots",
-"bytes": 0
-},
-{
-"url": "https://xn--939au0g4vj8sq.net/cp/?ca=30",
-"status": "SKIP robots",
-"bytes": 0
-},
-{
-"url": "https://xn--939au0g4vj8sq.net/cp/?ch=clip",
-"status": "SKIP robots",
-"bytes": 0
-},
-{
-"url": "https://xn--939au0g4vj8sq.net/cp/?ca=40",
-"status": "SKIP robots",
-"bytes": 0
-},
-{
 "url": "https://dinnerqueen.net/robots.txt",
 "status": 200,
 "bytes": 160
@@ -82,7 +57,7 @@
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%B0%B0%EC%86%A1",
 "status": 200,
-"bytes": 251418
+"bytes": 251423
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%B0%B0%EC%86%A1&page=2",
@@ -322,7 +297,7 @@
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%B6%80%EC%82%B0&page=4",
 "status": 200,
-"bytes": 260637
+"bytes": 260638
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%B6%80%EC%82%B0&page=5",
@@ -367,7 +342,7 @@
 {
 "url": "https://www.mrblog.net/",
 "status": 200,
-"bytes": 149450
+"bytes": 149752
 },
 {
 "url": "https://www.cometoplay.kr/robots.txt",
@@ -392,7 +367,7 @@
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=4",
 "status": 200,
-"bytes": 46898
+"bytes": 46899
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=5",
