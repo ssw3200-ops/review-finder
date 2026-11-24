@@ -34,7 +34,7 @@ def parse(html, today=None):
         # 텍스트 조각: [유형, 마감, 제목, 제공, 신청…]
         parts = [s.strip() for s in a.stripped_strings]
         after = parts[parts.index(typ_word) + 1:] if typ_word in parts else parts
-        after = [p for p in after if not re.search(r"일\s*남음|오늘까지|마감|회차", p)]
+        after = [p for p in after if not re.search(r"일\s*남음|오늘까지|마감|회차|20\d\d[./-]\d{1,2}[./-]\d{1,2}", p)]
         title = after[0] if after else ""
         offer = after[1] if len(after) > 1 and not after[1].startswith("신청") else ""
 

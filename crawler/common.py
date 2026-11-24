@@ -11,8 +11,10 @@ UA = "review-finder/1.0 (+https://github.com/ssw3200-ops/review-finder)"
 DELAY_SEC = 2.0
 _robots = {}
 _last_request = 0.0
+LOG = []  # 진단용: (url, status, bytes)
 session = requests.Session()
-session.headers.update({"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9"})
+session.headers.update({"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9",
+                        "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8"})
 
 
 def allowed(url):
@@ -23,11 +25,13 @@ def allowed(url):
         rp = urllib.robotparser.RobotFileParser()
         try:
             r = session.get(base + "/robots.txt", timeout=15)
+            LOG.append((base + "/robots.txt", r.status_code, len(r.content)))
             if r.status_code >= 400 and r.status_code != 404:
                 rp = None
             else:
                 rp.parse(r.text.splitlines() if r.status_code == 200 else [])
-        except requests.RequestException:
+        except requests.RequestException as e:
+            LOG.append((base + "/robots.txt", f"ERR {type(e).__name__}", 0))
             rp = None
         _robots[base] = rp
     rp = _robots[base]
@@ -39,6 +43,7 @@ def fetch(url):
     global _last_request
     if not allowed(url):
         print(f"  [skip robots] {url}")
+        LOG.append((url, "SKIP robots", 0))
         return None
     wait = DELAY_SEC - (time.time() - _last_request)
     if wait > 0:
@@ -46,11 +51,14 @@ def fetch(url):
     _last_request = time.time()
     try:
         r = session.get(url, timeout=20)
+        LOG.append((url, r.status_code, len(r.content)))
         r.raise_for_status()
         r.encoding = r.apparent_encoding or "utf-8"
         return r.text
     except requests.RequestException as e:
         print(f"  [error] {url}: {e}")
+        if not LOG or LOG[-1][0] != url:
+            LOG.append((url, f"ERR {type(e).__name__}", 0))
         return None
 
 
@@ -140,6 +148,9 @@ def parse_deadline(text, today=None):
     """'6일 남음', 'D-3', 'D-Day', '오늘 마감' → ISO 날짜 문자열."""
     today = today or date.today()
     t = text or ""
+    d = re.search(r"(20\d\d)[./-](\d{1,2})[./-](\d{1,2})", t)
+    if d:
+        return date(int(d.group(1)), int(d.group(2)), int(d.group(3))).isoformat()
     m = (re.search(r"(\d+)\s*일\s*남", t) or re.search(r"D\s*-?\s*day\s*(\d+)", t, re.I)
          or re.search(r"D\s*-\s*(\d+)", t))
     if m:

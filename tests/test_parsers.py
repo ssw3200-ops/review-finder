@@ -70,7 +70,9 @@ def test_cometoplay():
 def test_assaview():
     from crawler.sites import assaview
     items = {i["id"]: i for i in assaview.parse((FX / "assaview.html").read_text(), TODAY)}
-    assert set(items) == {"as-1793850681571", "as-1795138979098", "as-1794981284772", "as-1794724725328"}  # 오픈예정 제외
+    assert set(items) == {"as-1793850681571", "as-1795138979098", "as-1794981284772", "as-1794724725328", "as-1799999999999"}  # 오픈예정 제외
+    e = items["as-1799999999999"]
+    assert (e["title"], e["sido"], e["offer"], e["deadline"]) == ("테스트카페", "세종", "음료 2잔", "2026-12-01")
     a = items["as-1793850681571"]
     assert (a["title"], a["media"], a["sido"], a["area"], a["applied"], a["recruit"], a["deadline"]) == \
         ("인량훠궈", "blog", "서울", "강남구", 166, 20, "2026-12-02")

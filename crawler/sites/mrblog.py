@@ -9,12 +9,12 @@ SITE = "미블"
 BASE = "https://www.mrblog.net"
 ID_RE = re.compile(r"^(?:https://www\.mrblog\.net)?/campaigns/(\d+)$")
 BADGES = ("릴스", "클립", "배송", "인스타", "인스타그램", "유튜브", "쇼츠", "기자단")
-MAX_PAGES = 5
+MAX_PAGES = 1
 
 
 def list_urls():
-    return [f"{BASE}/campaigns/region", f"{BASE}/campaigns/delivery",
-            f"{BASE}/campaigns?is_instagram=1", f"{BASE}/campaigns?sort=마감순"]
+    # 목록 페이지(/campaigns/...)는 로그인 필요 → 공개된 첫 화면 섹션만 수집
+    return [f"{BASE}/"]
 
 
 def parse(html, today=None, insta_page=False):
