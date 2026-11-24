@@ -17,6 +17,17 @@ session.headers.update({"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9",
                         "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8"})
 
 
+def _get(url):
+    """연결 시간 초과·끊김이면 한 번 더 시도 (느린 해외 연결 대비)."""
+    for attempt in (1, 2):
+        try:
+            return session.get(url, timeout=(30, 40))
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == 2:
+                raise
+            time.sleep(5)
+
+
 def allowed(url):
     """robots.txt에서 허용된 URL인지 확인. robots를 못 읽으면 수집하지 않는다."""
     p = urlparse(url)
@@ -24,7 +35,7 @@ def allowed(url):
     if base not in _robots:
         rp = urllib.robotparser.RobotFileParser()
         try:
-            r = session.get(base + "/robots.txt", timeout=15)
+            r = _get(base + "/robots.txt")
             LOG.append((base + "/robots.txt", r.status_code, len(r.content)))
             if r.status_code >= 400 and r.status_code != 404:
                 rp = None
@@ -50,7 +61,7 @@ def fetch(url):
         time.sleep(wait)
     _last_request = time.time()
     try:
-        r = session.get(url, timeout=20)
+        r = _get(url)
         LOG.append((url, r.status_code, len(r.content)))
         r.raise_for_status()
         r.encoding = r.apparent_encoding or "utf-8"
