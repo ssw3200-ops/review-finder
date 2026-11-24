@@ -199,6 +199,10 @@ def detect_cat(text, typ="방문", hint=""):
     if hint in CATS:
         return hint
     if hint in _DQ_BADGE:
+        if hint == "여가":  # 여가 배지는 숙박·문화가 섞여 있음
+            t = text or ""
+            if any(w in t for w in dict(_CAT_WORDS)["숙박"].split()):
+                return "숙박"
         return _DQ_BADGE[hint]
     if typ == "배송":
         return "제품"

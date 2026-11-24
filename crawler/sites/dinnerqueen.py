@@ -57,6 +57,9 @@ def parse(html, today=None):
         body = text.replace(a.get_text(" ", strip=True), "", 1).strip()  # 이미지 링크(배지) 제외
         offer = body.replace(title, "", 1)
         offer = re.split(r"\d+\s*일\s*남음|D\s*-|신청\s*\d", offer)[0].strip()
+        offer = re.sub(r"^[★\s]*(\[[^\]]*\]\s*)*", "", offer)  # 앞의 ★ [지역] [릴스] 제거
+        if name and offer.startswith(name):
+            offer = offer[len(name):].strip()
 
         items.append({
             "id": f"dq-{cid}",
