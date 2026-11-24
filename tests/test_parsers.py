@@ -38,3 +38,19 @@ def test_region():
     assert detect_region("충청남도 천안")[0] == "충남"
     assert detect_region("세종 고운동")[0] == "세종"
     assert detect_region("어딘가")[0] == "기타"
+
+
+def test_gangnam():
+    from crawler.sites import gangnam
+    items = {i["id"]: i for i in gangnam.parse((FX / "gangnam.html").read_text(), TODAY)}
+    assert set(items) == {"gm-2363907", "gm-2345893", "gm-2365068", "gm-2370001"}  # 리뷰 영역 링크 제외
+    a = items["gm-2363907"]
+    assert (a["media"], a["sido"], a["area"], a["type"], a["applied"], a["recruit"], a["deadline"]) == \
+        ("blog", "충북", "음성", "방문", 8, 5, "2026-11-24")
+    assert a["title"] == "유장춘닭개장 금왕점" and a["offer"] == "닭개장 OR 닭곰탕 택 2 체험권"
+    b = items["gm-2345893"]
+    assert (b["type"], b["sido"], b["applied"], b["deadline"]) == ("배송", "배송·전국", 6282, "2026-11-30")
+    c = items["gm-2365068"]
+    assert (c["type"], c["deadline"], c["title"]) == ("기자단", "2026-11-25", "종달 돌담 피자")
+    d = items["gm-2370001"]
+    assert (d["media"], d["sido"]) == ("reels", "세종")

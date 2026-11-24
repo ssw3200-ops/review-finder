@@ -60,13 +60,14 @@ MEDIA_LABELS = {"blog": "블로그", "insta": "인스타", "reels": "릴스", "c
 
 def detect_media(text, default="blog"):
     t = text or ""
-    if "릴스" in t or "reels" in t.lower():
+    low = t.lower()
+    if "릴스" in t or "reels" in low or "reel" in low:
         return "reels"
-    if "클립" in t:
+    if "클립" in t or "clip" in low:
         return "clip"
-    if "쇼츠" in t or "유튜브" in t:
+    if "쇼츠" in t or "유튜브" in t or "youtube" in low or "shorts" in low:
         return "youtube"
-    if "인스타" in t:
+    if "인스타" in t or "insta" in low:
         return "insta"
     return default
 
@@ -144,6 +145,8 @@ def parse_deadline(text, today=None):
         return (today + timedelta(days=int(m.group(1)))).isoformat()
     if re.search(r"D\s*-\s*Day|오늘\s*마감", t, re.I):
         return today.isoformat()
+    if re.search(r"하루\s*전|내일\s*마감", t):
+        return (today + timedelta(days=1)).isoformat()
     return None
 
 

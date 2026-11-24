@@ -1,6 +1,10 @@
 {
  "updated": "2026-11-24 14:00 (샘플)",
  "sites": {
+  "강남맛집": {
+   "ok": true,
+   "count": 6
+  },
   "디너의여왕": {
    "ok": true,
    "count": 10
@@ -266,6 +270,102 @@
    "deadline": "2026-11-26",
    "extra_mission": true,
    "ratio": 19.4
+  },
+  {
+   "id": "gm-2363907",
+   "site": "강남맛집",
+   "url": "https://xn--939au0g4vj8sq.net/cp/?id=2363907",
+   "title": "유장춘닭개장 금왕점",
+   "offer": "닭개장 OR 닭곰탕 택 2 체험권",
+   "media": "blog",
+   "sido": "충북",
+   "area": "음성",
+   "type": "방문",
+   "applied": 8,
+   "recruit": 5,
+   "deadline": "2026-11-24",
+   "extra_mission": false,
+   "ratio": 1.6
+  },
+  {
+   "id": "gm-2363933",
+   "site": "강남맛집",
+   "url": "https://xn--939au0g4vj8sq.net/cp/?id=2363933",
+   "title": "청해루",
+   "offer": "원하는 식사류 2인 + 탕수육(소)",
+   "media": "blog",
+   "sido": "강원",
+   "area": "철원",
+   "type": "방문",
+   "applied": 6,
+   "recruit": 10,
+   "deadline": "2026-11-24",
+   "extra_mission": false,
+   "ratio": 0.6
+  },
+  {
+   "id": "gm-2363847",
+   "site": "강남맛집",
+   "url": "https://xn--939au0g4vj8sq.net/cp/?id=2363847",
+   "title": "마인드마인드 대연점",
+   "offer": "발달검사 or 뇌파검사 중 택1 체험권",
+   "media": "blog",
+   "sido": "부산",
+   "area": "남구",
+   "type": "방문",
+   "applied": 2,
+   "recruit": 5,
+   "deadline": "2026-11-24",
+   "extra_mission": false,
+   "ratio": 0.4
+  },
+  {
+   "id": "gm-2368207",
+   "site": "강남맛집",
+   "url": "https://xn--939au0g4vj8sq.net/cp/?id=2368207",
+   "title": "안동갈비국밥 의정부용현점",
+   "offer": "2인 기준 체험권",
+   "media": "blog",
+   "sido": "경기",
+   "area": "의정부",
+   "type": "방문",
+   "applied": 0,
+   "recruit": 10,
+   "deadline": "2026-11-30",
+   "extra_mission": false,
+   "ratio": 0.0
+  },
+  {
+   "id": "gm-2368202",
+   "site": "강남맛집",
+   "url": "https://xn--939au0g4vj8sq.net/cp/?id=2368202",
+   "title": "썬더볼트 파스타 클럽",
+   "offer": "라자냐+파스타 등 택1 체험권",
+   "media": "blog",
+   "sido": "전북",
+   "area": "전주",
+   "type": "방문",
+   "applied": 0,
+   "recruit": 10,
+   "deadline": "2026-11-30",
+   "extra_mission": false,
+   "ratio": 0.0
+  },
+  {
+   "id": "gm-2366498",
+   "site": "강남맛집",
+   "url": "https://xn--939au0g4vj8sq.net/cp/?id=2366498",
+   "title": "양씨네과수원",
+   "offer": "고당도 황금향 2.5kg 배송체험권",
+   "media": "blog",
+   "sido": "배송·전국",
+   "area": "",
+   "type": "배송",
+   "applied": 1019,
+   "recruit": 15,
+   "deadline": "2026-11-26",
+   "extra_mission": false,
+   "ratio": 67.9
   }
  ]
 }
