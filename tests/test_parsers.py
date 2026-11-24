@@ -83,3 +83,17 @@ def test_assaview():
     assert (c["media"], c["extra_mission"]) == ("blog", True)
     d = items["as-1794724725328"]
     assert (d["media"], d["sido"], d["deadline"]) == ("reels", "전남", "2026-11-24")
+
+
+
+def test_cat():
+    from crawler.common import detect_cat
+    assert detect_cat("세종골프서당 20분레슨") == "문화"
+    assert detect_cat("더 헤어샵 염색 or 펌") == "뷰티"
+    assert detect_cat("스테이 백로 숙박 1박 체험권") == "숙박"
+    assert detect_cat("셰프랑반찬 도시락 1개 배달 체험권") == "배달"
+    assert detect_cat("넉넉 4종 반찬 포장 체험권") == "포장"
+    assert detect_cat("어시장브라더스 물회 + 회덮밥 2인 식사 체험권") == "맛집"
+    assert detect_cat("세차앤새차 맞춤패키지") == "기타"
+    assert detect_cat("아무거나", "배송") == "제품"
+    assert detect_cat("x", hint="여가") == "문화"

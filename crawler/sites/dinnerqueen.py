@@ -72,6 +72,7 @@ def parse(html, today=None):
             "recruit": recruit,
             "deadline": parse_deadline(text, today),
             "extra_mission": has_extra_mission(text),
+            "cat_hint": next((b for b in ("맛집", "뷰티", "여가", "숙박") if b in badges), ""),
         })
     return items
 

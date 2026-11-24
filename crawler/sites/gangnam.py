@@ -11,9 +11,12 @@ ID_RE = re.compile(r"^(?:https://(?:xn--939au0g4vj8sq|강남맛집)\.net)?/cp/\?
 MAX_PAGES = 10
 
 
+CA_CAT = {"2005": "맛집", "2010": "뷰티", "2015": "숙박", "2020": "문화", "2025": "배달", "2030": "포장", "2035": "기타"}
+
+
 def list_urls():
-    # 지역(방문형), 제품(배송형), 클립, 기자단
-    return [f"{BASE}/cp/?ca=20", f"{BASE}/cp/?ca=30", f"{BASE}/cp/?ch=clip", f"{BASE}/cp/?ca=40"]
+    # 지역(방문형)은 분야별(맛집~기타), 제품(배송형), 클립, 기자단
+    return [f"{BASE}/cp/?ca={c}" for c in CA_CAT] + [f"{BASE}/cp/?ca=30", f"{BASE}/cp/?ch=clip", f"{BASE}/cp/?ca=40"]
 
 
 def _card(a):
@@ -83,7 +86,10 @@ def crawl():
             html = fetch(url)
             if not html:
                 break
+            hint = next((v for k, v in CA_CAT.items() if f"ca={k}" in base_url), "")
             new = [i for i in parse(html) if i["id"] not in seen]
+            for i in new:
+                i["cat_hint"] = hint
             for i in new:
                 seen[i["id"]] = i
             if not new:

@@ -46,6 +46,7 @@ def main(sites=None, out=None):
     today = date.today().isoformat()
     items = [i for i in items if not i.get("deadline") or i["deadline"] >= today]
     for i in items:
+        i["cat"] = common.detect_cat(f'{i.get("title","")} {i.get("offer","")}', i.get("type"), i.pop("cat_hint", ""))
         a, r = i.get("applied"), i.get("recruit")
         i["ratio"] = round(a / r, 1) if a is not None and r else None
 

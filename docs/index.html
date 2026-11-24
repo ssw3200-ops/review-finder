@@ -21,6 +21,7 @@ h1 span{color:var(--accent)}
 .chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .chips::-webkit-scrollbar{display:none}
 .chip{flex:none;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer;min-height:38px}
+.chip.sm{padding:6px 12px;font-size:13px;min-height:34px;font-weight:600}
 .chip[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
 .row{display:flex;gap:8px}
 select,input[type=search]{flex:1;min-width:0;height:40px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:0 10px;font-size:15px;color:var(--ink)}
@@ -65,6 +66,17 @@ footer a{color:var(--sub)}
     <button class="chip" data-v="reels" aria-pressed="false">릴스</button>
     <button class="chip" data-v="clip" aria-pressed="false">클립</button>
   </div>
+  <div class="chips" id="cat" role="group" aria-label="분야">
+    <button class="chip sm" data-v="" aria-pressed="true">전체 분야</button>
+    <button class="chip sm" data-v="맛집" aria-pressed="false">🍽 맛집</button>
+    <button class="chip sm" data-v="뷰티" aria-pressed="false">💅 뷰티</button>
+    <button class="chip sm" data-v="숙박" aria-pressed="false">🏨 숙박</button>
+    <button class="chip sm" data-v="문화" aria-pressed="false">🎨 문화</button>
+    <button class="chip sm" data-v="배달" aria-pressed="false">🛵 배달</button>
+    <button class="chip sm" data-v="포장" aria-pressed="false">🥡 포장</button>
+    <button class="chip sm" data-v="제품" aria-pressed="false">📦 제품</button>
+    <button class="chip sm" data-v="기타" aria-pressed="false">기타</button>
+  </div>
   <div class="row">
     <select id="sido" aria-label="지역"><option value="">전체 지역</option></select>
     <select id="type" aria-label="유형">
@@ -98,7 +110,7 @@ footer a{color:var(--sub)}
   const MEDIA = {blog:"블로그",insta:"인스타",reels:"릴스",clip:"클립",youtube:"유튜브"};
   const PAGE = 30;
   const $ = id => document.getElementById(id);
-  const state = {media:"", sido:"", type:"", sort:"ratio", q:"", single:false, shown:PAGE};
+  const state = {cat:"", media:"", sido:"", type:"", sort:"ratio", q:"", single:false, shown:PAGE};
   let all = [];
 
   const store = {
@@ -116,6 +128,7 @@ footer a{color:var(--sub)}
     const q = state.q.trim().toLowerCase();
     let r = all.filter(i =>
       (!state.media || i.media === state.media) &&
+      (!state.cat || i.cat === state.cat) &&
       (!state.sido || i.sido === state.sido) &&
       (!state.type || i.type === state.type) &&
       (!state.single || !i.extra_mission) &&
@@ -141,6 +154,7 @@ footer a{color:var(--sub)}
     return `<a class="card" href="${esc(i.url)}" target="_blank" rel="noopener nofollow">
       <div class="top">
         <span class="badge m-${esc(i.media)}">${esc(MEDIA[i.media] || i.media)}</span>
+        ${i.cat ? `<span class="tag">${esc(i.cat)}</span>` : ""}
         ${where ? `<span class="tag">${esc(where)}</span>` : ""}
         ${i.extra_mission ? `<span class="tag extra">추가 미션</span>` : ""}
         <span class="site">${esc(i.site)}</span>
@@ -160,17 +174,22 @@ footer a{color:var(--sub)}
     $("list").innerHTML = r.length ? r.slice(0, state.shown).map(card).join("")
       : `<div class="empty">조건에 맞는 공고가 없어요.<br>지역이나 매체를 넓혀 보세요.</div>`;
     $("more").hidden = r.length <= state.shown;
-    store.set({media:state.media, sido:state.sido, type:state.type, sort:state.sort, single:state.single});
+    store.set({cat:state.cat, media:state.media, sido:state.sido, type:state.type, sort:state.sort, single:state.single});
   }
 
   function sync(){
     document.querySelectorAll("#media .chip").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === state.media));
+    document.querySelectorAll("#cat .chip").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === state.cat));
     $("sido").value = state.sido; $("type").value = state.type; $("sort").value = state.sort; $("single").checked = state.single;
   }
 
   $("media").addEventListener("click", e => {
     const b = e.target.closest(".chip"); if(!b) return;
     state.media = b.dataset.v; state.shown = PAGE; sync(); render();
+  });
+  $("cat").addEventListener("click", e => {
+    const b = e.target.closest(".chip"); if(!b) return;
+    state.cat = b.dataset.v; state.shown = PAGE; sync(); render();
   });
   ["sido","type","sort"].forEach(id => $(id).addEventListener("change", e => { state[id] = e.target.value; state.shown = PAGE; render(); }));
   $("single").addEventListener("change", e => { state.single = e.target.checked; state.shown = PAGE; render(); });
