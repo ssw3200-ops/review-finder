@@ -282,7 +282,7 @@
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%82%A8",
 "status": 200,
-"bytes": 269393
+"bytes": 269403
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%82%A8&page=2",
@@ -297,12 +297,12 @@
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%82%A8&page=4",
 "status": 200,
-"bytes": 259476
+"bytes": 259486
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%82%A8&page=5",
 "status": 200,
-"bytes": 260870
+"bytes": 260880
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%B6%80%EC%82%B0",
@@ -367,7 +367,7 @@
 {
 "url": "https://www.mrblog.net/",
 "status": 200,
-"bytes": 149807
+"bytes": 149450
 },
 {
 "url": "https://www.cometoplay.kr/robots.txt",
