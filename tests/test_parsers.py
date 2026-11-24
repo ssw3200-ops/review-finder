@@ -1,0 +1,40 @@
+from datetime import date
+from pathlib import Path
+
+from crawler.common import detect_region
+from crawler.sites import dinnerqueen, mrblog
+
+FX = Path(__file__).parent / "fixtures"
+TODAY = date(2026, 11, 24)
+
+
+def test_dinnerqueen():
+    items = {i["id"]: i for i in dinnerqueen.parse((FX / "dinnerqueen.html").read_text(), TODAY)}
+    assert set(items) == {"dq-1663398", "dq-1664298", "dq-1660479"}  # 배너 제외
+    a = items["dq-1663398"]
+    assert (a["media"], a["sido"], a["area"], a["applied"], a["recruit"]) == ("reels", "서울", "송파", 28, 2)
+    assert a["title"] == "쿠우쿠우 송파점" and a["deadline"] == "2026-11-30" and a["offer"] == "2인 식사권"
+    b = items["dq-1664298"]
+    assert (b["media"], b["sido"], b["recruit"]) == ("blog", "대전", 5)
+    assert items["dq-1660479"]["type"] == "배송" and items["dq-1660479"]["sido"] == "배송·전국"
+
+
+def test_mrblog():
+    items = {i["id"]: i for i in mrblog.parse((FX / "mrblog.html").read_text(), TODAY)}
+    assert len(items) == 4
+    r = items["mb-1153938"]
+    assert (r["media"], r["sido"], r["applied"], r["recruit"], r["extra_mission"]) == ("reels", "서울", 0, 5, True)
+    assert r["deadline"] == "2026-11-24" and r["title"] == "오태호킹크랩"
+    c = items["mb-1153513"]
+    assert (c["media"], c["sido"], c["extra_mission"]) == ("clip", "대전", False)
+    d = items["mb-1154740"]
+    assert d["type"] == "배송" and d["extra_mission"] is True
+    p = items["mb-1153527"]
+    assert (p["sido"], p["deadline"]) == ("경기", "2026-11-27")
+
+
+def test_region():
+    assert detect_region("강남구 삼성동")[0] == "서울"
+    assert detect_region("충청남도 천안")[0] == "충남"
+    assert detect_region("세종 고운동")[0] == "세종"
+    assert detect_region("어딘가")[0] == "기타"
