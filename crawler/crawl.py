@@ -11,12 +11,17 @@ from pathlib import Path
 from crawler import common
 from crawler.sites import assaview, cometoplay, dinnerqueen, gangnam, mrblog
 
-SITES = [gangnam, dinnerqueen, mrblog, cometoplay, assaview]
-OUT = Path(__file__).resolve().parent.parent / "docs" / "data" / "campaigns.json"
+SITES = [dinnerqueen, mrblog, cometoplay, assaview]  # GitHub Actions(해외)에서 수집
+LOCAL_SITES = [gangnam]  # 해외 접속 차단 → 국내 PC에서 수집 (python -m crawler.crawl --local)
+DATA = Path(__file__).resolve().parent.parent / "docs" / "data"
+OUT = DATA / "campaigns.json"
 KST = timezone(timedelta(hours=9))
 
 
-def main():
+def main(sites=None, out=None):
+    global OUT
+    sites = sites or SITES
+    OUT = out or OUT
     old = {}
     if OUT.exists():
         try:
@@ -26,7 +31,7 @@ def main():
             pass
 
     items, status = [], {}
-    for mod in SITES:
+    for mod in sites:
         print(f"[{mod.SITE}] 수집 시작")
         try:
             got = mod.crawl()
@@ -52,9 +57,13 @@ def main():
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"총 {len(items)}건 저장 → {OUT}")
     # 진단: 사이트별 요청 결과 (상태코드·크기) — Actions 로그 없이 원인 확인용
-    (OUT.parent / "debug.json").write_text(json.dumps(
+    (OUT.parent / ("debug_local.json" if OUT.name == "local.json" else "debug.json")).write_text(json.dumps(
         [{"url": u, "status": st, "bytes": b} for u, st, b in common.LOG], ensure_ascii=False, indent=0), encoding="utf-8")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--local" in sys.argv:
+        main(LOCAL_SITES, DATA / "local.json")
+    else:
+        main()

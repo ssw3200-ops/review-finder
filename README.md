@@ -46,3 +46,17 @@ cd docs && python -m http.server # http://localhost:8000
 `crawler/crawl.py`의 `SITES`에 등록합니다. 추가 전 robots.txt와 이용약관을 꼭 확인하세요.
 
 `id, site, url, title, offer, media(blog|insta|reels|clip|youtube), sido, area, type(방문|배송|기자단), applied, recruit, deadline(YYYY-MM-DD), extra_mission(bool)`
+
+## 국내 PC 수집 (강남맛집)
+
+강남맛집은 해외 서버(GitHub Actions) 접속을 막아서 국내 PC에서 하루 2번(10:00, 16:00) 수집해 `docs/data/local.json`으로 올립니다.
+페이지는 `campaigns.json`(Actions)과 `local.json`(PC)을 합쳐서 보여줍니다.
+
+Windows 설정 (한 번만):
+1. Python 3, Git 설치 후 `git clone https://github.com/ssw3200-ops/review-finder`
+2. 폴더에서 `pip install -r requirements.txt`
+3. `git push`가 비밀번호 없이 되는지 확인 (Git Credential Manager 로그인)
+4. `tools\register_task.bat` 더블클릭 → 작업 스케줄러에 10시·16시 등록
+5. 바로 시험: `tools\run_local.bat` 실행 → GitHub에 local.json 커밋 확인 (로그: tools\local.log)
+
+PC가 꺼져 있으면 그 회차는 건너뜁니다. 맥/리눅스는 `tools/run_local.sh`를 cron에 등록.

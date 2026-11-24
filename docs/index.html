@@ -179,15 +179,17 @@ footer a{color:var(--sub)}
 
   Object.assign(state, store.get()); sync();
 
-  fetch("data/campaigns.json", {cache:"no-cache"})
-    .then(r => r.json())
-    .then(data => {
-      all = data.items || [];
-      $("updated").textContent = data.updated ? `${data.updated} 업데이트` : "";
-      $("sources").textContent = "수집 사이트: " + Object.entries(data.sites || {}).map(([k,v]) => `${k} ${v.count}건`).join(" · ");
-      render();
-    })
-    .catch(() => { $("count").textContent = "데이터를 불러오지 못했어요. 잠시 후 다시 시도해 주세요."; });
+  const load = f => fetch(f, {cache:"no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null);
+  Promise.all([load("data/campaigns.json"), load("data/local.json")]).then(([main, local]) => {
+    if (!main && !local) { $("count").textContent = "데이터를 불러오지 못했어요. 잠시 후 다시 시도해 주세요."; return; }
+    const seen = new Set(); all = [];
+    [main, local].forEach(d => (d?.items || []).forEach(i => { if (!seen.has(i.id)) { seen.add(i.id); all.push(i); } }));
+    const ups = [main?.updated, local?.updated].filter(Boolean).sort();
+    $("updated").textContent = ups.length ? `${ups[ups.length-1]} 업데이트` : "";
+    const sites = {...(main?.sites || {}), ...(local?.sites || {})};
+    $("sources").textContent = "수집 사이트: " + Object.entries(sites).map(([k,v]) => `${k} ${v.count}건`).join(" · ");
+    render();
+  });
 })();
 </script>
 </body>
