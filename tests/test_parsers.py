@@ -54,3 +54,30 @@ def test_gangnam():
     assert (c["type"], c["deadline"], c["title"]) == ("기자단", "2026-11-25", "종달 돌담 피자")
     d = items["gm-2370001"]
     assert (d["media"], d["sido"]) == ("reels", "세종")
+
+
+def test_cometoplay():
+    from crawler.sites import cometoplay
+    items = {i["id"]: i for i in cometoplay.parse((FX / "cometoplay.html").read_text(), TODAY)}
+    assert set(items) == {"np-1794446199", "np-1795486401", "np-1794874169", "np-1795137029"}
+    a = items["np-1794446199"]
+    assert (a["title"], a["sido"], a["area"], a["type"], a["applied"], a["recruit"], a["deadline"]) == \
+        ("마이보쌈", "서울", "노원", "방문", 20, 10, "2026-11-24")
+    assert items["np-1795486401"]["deadline"] == "2026-12-02" and items["np-1795486401"]["sido"] == "경남"
+    assert items["np-1794874169"]["type"] == "배송" and items["np-1795137029"]["type"] == "기자단"
+
+
+def test_assaview():
+    from crawler.sites import assaview
+    items = {i["id"]: i for i in assaview.parse((FX / "assaview.html").read_text(), TODAY)}
+    assert set(items) == {"as-1793850681571", "as-1795138979098", "as-1794981284772", "as-1794724725328"}  # 오픈예정 제외
+    a = items["as-1793850681571"]
+    assert (a["title"], a["media"], a["sido"], a["area"], a["applied"], a["recruit"], a["deadline"]) == \
+        ("인량훠궈", "blog", "서울", "강남구", 166, 20, "2026-12-02")
+    assert a["offer"] == "강남 신사논현 고급훠궈 레스토랑 이용권"
+    b = items["as-1795138979098"]
+    assert (b["media"], b["type"], b["sido"], b["extra_mission"]) == ("insta", "배송", "배송·전국", False)
+    c = items["as-1794981284772"]
+    assert (c["media"], c["extra_mission"]) == ("blog", True)
+    d = items["as-1794724725328"]
+    assert (d["media"], d["sido"], d["deadline"]) == ("reels", "전남", "2026-11-24")

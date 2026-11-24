@@ -8,9 +8,9 @@ import traceback
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from crawler.sites import dinnerqueen, gangnam, mrblog
+from crawler.sites import assaview, cometoplay, dinnerqueen, gangnam, mrblog
 
-SITES = [gangnam, dinnerqueen, mrblog]
+SITES = [gangnam, dinnerqueen, mrblog, cometoplay, assaview]
 OUT = Path(__file__).resolve().parent.parent / "docs" / "data" / "campaigns.json"
 KST = timezone(timedelta(hours=9))
 

@@ -12,6 +12,14 @@
   "미블": {
    "ok": true,
    "count": 6
+  },
+  "놀러와체험단": {
+   "ok": true,
+   "count": 3
+  },
+  "아싸뷰": {
+   "ok": true,
+   "count": 4
   }
  },
  "items": [
@@ -366,6 +374,118 @@
    "deadline": "2026-11-26",
    "extra_mission": false,
    "ratio": 67.9
+  },
+  {
+   "id": "np-1795486401",
+   "site": "놀러와체험단",
+   "url": "https://www.cometoplay.kr/item.php?it_id=1795486401",
+   "title": "약식동원 다루야",
+   "offer": "진짜 좋은 자연재료 한식 맛집",
+   "media": "blog",
+   "sido": "경남",
+   "area": "양산",
+   "type": "방문",
+   "applied": 0,
+   "recruit": 10,
+   "deadline": "2026-12-02",
+   "extra_mission": false,
+   "ratio": 0.0
+  },
+  {
+   "id": "np-1795485682",
+   "site": "놀러와체험단",
+   "url": "https://www.cometoplay.kr/item.php?it_id=1795485682",
+   "title": "파머스포케 노량진점",
+   "offer": "샐러드 포케 맛집",
+   "media": "blog",
+   "sido": "서울",
+   "area": "동작",
+   "type": "방문",
+   "applied": 2,
+   "recruit": 10,
+   "deadline": "2026-12-06",
+   "extra_mission": false,
+   "ratio": 0.2
+  },
+  {
+   "id": "np-1795487187",
+   "site": "놀러와체험단",
+   "url": "https://www.cometoplay.kr/item.php?it_id=1795487187",
+   "title": "부록셀프사진관 울산송정점",
+   "offer": "셀프 사진관",
+   "media": "blog",
+   "sido": "울산",
+   "area": "북구",
+   "type": "방문",
+   "applied": 0,
+   "recruit": 10,
+   "deadline": "2026-11-29",
+   "extra_mission": false,
+   "ratio": 0.0
+  },
+  {
+   "id": "as-1793850681571",
+   "site": "아싸뷰",
+   "url": "https://www.assaview.co.kr/campaign.php?cp_id=1793850681571",
+   "title": "인량훠궈",
+   "offer": "고급훠궈 레스토랑 이용권",
+   "media": "blog",
+   "sido": "서울",
+   "area": "강남구",
+   "type": "방문",
+   "applied": 166,
+   "recruit": 20,
+   "deadline": "2026-12-02",
+   "extra_mission": false,
+   "ratio": 8.3
+  },
+  {
+   "id": "as-1795138979098",
+   "site": "아싸뷰",
+   "url": "https://www.assaview.co.kr/campaign.php?cp_id=1795138979098",
+   "title": "시로카라 키즈 스쿨 백팩",
+   "offer": "스쿨백팩 M+ 랜덤발송",
+   "media": "insta",
+   "sido": "배송·전국",
+   "area": "",
+   "type": "배송",
+   "applied": 82,
+   "recruit": 10,
+   "deadline": "2026-11-28",
+   "extra_mission": false,
+   "ratio": 8.2
+  },
+  {
+   "id": "as-1794724725328",
+   "site": "아싸뷰",
+   "url": "https://www.assaview.co.kr/campaign.php?cp_id=1794724725328",
+   "title": "헤어 악세사리와 파우치",
+   "offer": "헤어 악세사리·파우치",
+   "media": "reels",
+   "sido": "배송·전국",
+   "area": "",
+   "type": "배송",
+   "applied": 5,
+   "recruit": 10,
+   "deadline": "2026-11-30",
+   "extra_mission": false,
+   "ratio": 0.5
+  },
+  {
+   "id": "as-1794981284772",
+   "site": "아싸뷰",
+   "url": "https://www.assaview.co.kr/campaign.php?cp_id=1794981284772",
+   "title": "리보아 패브릭 서랍장",
+   "offer": "블랙 40cm x 4단 (구매형)",
+   "media": "blog",
+   "sido": "배송·전국",
+   "area": "",
+   "type": "배송",
+   "applied": 78,
+   "recruit": 10,
+   "deadline": "2026-11-26",
+   "extra_mission": true,
+   "ratio": 7.8
   }
  ]
 }

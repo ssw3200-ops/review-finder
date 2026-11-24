@@ -140,10 +140,11 @@ def parse_deadline(text, today=None):
     """'6일 남음', 'D-3', 'D-Day', '오늘 마감' → ISO 날짜 문자열."""
     today = today or date.today()
     t = text or ""
-    m = re.search(r"(\d+)\s*일\s*남", t) or re.search(r"D\s*-\s*(\d+)", t)
+    m = (re.search(r"(\d+)\s*일\s*남", t) or re.search(r"D\s*-?\s*day\s*(\d+)", t, re.I)
+         or re.search(r"D\s*-\s*(\d+)", t))
     if m:
         return (today + timedelta(days=int(m.group(1)))).isoformat()
-    if re.search(r"D\s*-\s*Day|오늘\s*마감", t, re.I):
+    if re.search(r"D\s*-\s*Day|오늘\s*마감|오늘\s*까지", t, re.I):
         return today.isoformat()
     if re.search(r"하루\s*전|내일\s*마감", t):
         return (today + timedelta(days=1)).isoformat()
