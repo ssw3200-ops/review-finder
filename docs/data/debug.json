@@ -7,97 +7,97 @@
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%A6%B4%EC%8A%A4",
 "status": 200,
-"bytes": 276760
+"bytes": 274754
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%A6%B4%EC%8A%A4&page=2",
 "status": 200,
-"bytes": 276822
+"bytes": 274692
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%A6%B4%EC%8A%A4&page=3",
 "status": 200,
-"bytes": 276933
+"bytes": 275159
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%A6%B4%EC%8A%A4&page=4",
 "status": 200,
-"bytes": 276924
+"bytes": 274755
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%A6%B4%EC%8A%A4&page=5",
 "status": 200,
-"bytes": 276208
+"bytes": 275224
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%ED%81%B4%EB%A6%BD",
 "status": 200,
-"bytes": 277436
+"bytes": 274500
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%ED%81%B4%EB%A6%BD&page=2",
 "status": 200,
-"bytes": 276938
+"bytes": 275110
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%ED%81%B4%EB%A6%BD&page=3",
 "status": 200,
-"bytes": 275690
+"bytes": 274007
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%ED%81%B4%EB%A6%BD&page=4",
 "status": 200,
-"bytes": 276216
+"bytes": 274904
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%ED%81%B4%EB%A6%BD&page=5",
 "status": 200,
-"bytes": 275259
+"bytes": 274251
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%B0%B0%EC%86%A1",
 "status": 200,
-"bytes": 251471
+"bytes": 250786
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%B0%B0%EC%86%A1&page=2",
 "status": 200,
-"bytes": 251022
+"bytes": 248806
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%B0%B0%EC%86%A1&page=3",
 "status": 200,
-"bytes": 249717
+"bytes": 249109
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%B0%B0%EC%86%A1&page=4",
 "status": 200,
-"bytes": 251876
+"bytes": 212933
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EB%B0%B0%EC%86%A1&page=5",
 "status": 200,
-"bytes": 250795
+"bytes": 151569
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EA%B8%B0%EC%9E%90%EB%8B%A8",
 "status": 200,
-"bytes": 192980
+"bytes": 182126
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EA%B8%B0%EC%9E%90%EB%8B%A8&page=2",
 "status": 200,
-"bytes": 151472
+"bytes": 150136
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%84%9C%EC%9A%B8",
 "status": 200,
-"bytes": 274500
+"bytes": 273134
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EA%B8%B0",
 "status": 200,
-"bytes": 272883
+"bytes": 271070
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%9D%B8%EC%B2%9C",
@@ -107,52 +107,52 @@
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B0%95%EC%9B%90",
 "status": 200,
-"bytes": 272646
+"bytes": 270558
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B0%95%EC%9B%90&page=2",
 "status": 200,
-"bytes": 262467
+"bytes": 269451
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B0%95%EC%9B%90&page=3",
 "status": 200,
-"bytes": 262208
+"bytes": 261224
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B0%95%EC%9B%90&page=4",
 "status": 200,
-"bytes": 259383
+"bytes": 263062
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B0%95%EC%9B%90&page=5",
 "status": 200,
-"bytes": 266450
+"bytes": 256994
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EC%A0%84",
 "status": 200,
-"bytes": 268898
+"bytes": 270286
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EC%A0%84&page=2",
 "status": 200,
-"bytes": 260703
+"bytes": 257708
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EC%A0%84&page=3",
 "status": 200,
-"bytes": 262423
+"bytes": 261489
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EC%A0%84&page=4",
 "status": 200,
-"bytes": 263394
+"bytes": 262607
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EC%A0%84&page=5",
 "status": 200,
-"bytes": 265361
+"bytes": 265725
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%84%B8%EC%A2%85",
@@ -172,27 +172,27 @@
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B4%91%EC%A3%BC",
 "status": 200,
-"bytes": 266108
+"bytes": 262734
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B4%91%EC%A3%BC&page=2",
 "status": 200,
-"bytes": 262767
+"bytes": 262886
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B4%91%EC%A3%BC&page=3",
 "status": 200,
-"bytes": 266818
+"bytes": 263341
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B4%91%EC%A3%BC&page=4",
 "status": 200,
-"bytes": 260194
+"bytes": 260978
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B4%91%EC%A3%BC&page=5",
 "status": 200,
-"bytes": 169072
+"bytes": 167360
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%A0%84%EB%B6%81",
@@ -207,102 +207,102 @@
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EA%B5%AC",
 "status": 200,
-"bytes": 269889
+"bytes": 268283
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EA%B5%AC&page=2",
 "status": 200,
-"bytes": 259813
+"bytes": 261098
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EA%B5%AC&page=3",
 "status": 200,
-"bytes": 259525
+"bytes": 257694
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EA%B5%AC&page=4",
 "status": 200,
-"bytes": 263429
+"bytes": 257113
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%8C%80%EA%B5%AC&page=5",
 "status": 200,
-"bytes": 264009
+"bytes": 264002
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%B6%81",
 "status": 200,
-"bytes": 269919
+"bytes": 268408
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%B6%81&page=2",
 "status": 200,
-"bytes": 260232
+"bytes": 267202
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%B6%81&page=3",
 "status": 200,
-"bytes": 261037
+"bytes": 255326
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%B6%81&page=4",
 "status": 200,
-"bytes": 263606
+"bytes": 260311
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%B6%81&page=5",
 "status": 200,
-"bytes": 263155
+"bytes": 263237
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%82%A8",
 "status": 200,
-"bytes": 269413
+"bytes": 268201
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%82%A8&page=2",
 "status": 200,
-"bytes": 268051
+"bytes": 269681
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%82%A8&page=3",
 "status": 200,
-"bytes": 259063
+"bytes": 262670
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%82%A8&page=4",
 "status": 200,
-"bytes": 259498
+"bytes": 260049
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EA%B2%BD%EB%82%A8&page=5",
 "status": 200,
-"bytes": 260891
+"bytes": 260053
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%B6%80%EC%82%B0",
 "status": 200,
-"bytes": 270138
+"bytes": 268773
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%B6%80%EC%82%B0&page=2",
 "status": 200,
-"bytes": 266828
+"bytes": 270267
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%B6%80%EC%82%B0&page=3",
 "status": 200,
-"bytes": 259840
+"bytes": 258726
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%B6%80%EC%82%B0&page=4",
 "status": 200,
-"bytes": 260702
+"bytes": 258366
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EB%B6%80%EC%82%B0&page=5",
 "status": 200,
-"bytes": 262950
+"bytes": 257473
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%9A%B8%EC%82%B0",
@@ -312,27 +312,27 @@
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%A0%9C%EC%A3%BC",
 "status": 200,
-"bytes": 267656
+"bytes": 269240
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%A0%9C%EC%A3%BC&page=2",
 "status": 200,
-"bytes": 260086
+"bytes": 258413
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%A0%9C%EC%A3%BC&page=3",
 "status": 200,
-"bytes": 263538
+"bytes": 259397
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%A0%9C%EC%A3%BC&page=4",
 "status": 200,
-"bytes": 267835
+"bytes": 261946
 },
 {
 "url": "https://dinnerqueen.net/taste?ct=%EC%A7%80%EC%97%AD&area1=%EC%A0%9C%EC%A3%BC&page=5",
 "status": 200,
-"bytes": 270364
+"bytes": 260024
 },
 {
 "url": "https://www.mrblog.net/robots.txt",
@@ -342,7 +342,7 @@
 {
 "url": "https://www.mrblog.net/",
 "status": 200,
-"bytes": 149097
+"bytes": 150517
 },
 {
 "url": "https://www.cometoplay.kr/robots.txt",
@@ -352,77 +352,72 @@
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001",
 "status": 200,
-"bytes": 48759
+"bytes": 47080
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=2",
 "status": 200,
-"bytes": 48844
+"bytes": 47164
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=3",
 "status": 200,
-"bytes": 47679
+"bytes": 46911
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=4",
 "status": 200,
-"bytes": 46900
+"bytes": 46901
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=5",
 "status": 200,
-"bytes": 47357
+"bytes": 47356
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=6",
 "status": 200,
-"bytes": 46687
+"bytes": 46824
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=7",
 "status": 200,
-"bytes": 47072
+"bytes": 46922
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=8",
 "status": 200,
-"bytes": 47421
+"bytes": 47658
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=9",
 "status": 200,
-"bytes": 47246
+"bytes": 48420
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=001&page=10",
 "status": 200,
-"bytes": 46625
+"bytes": 47851
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=002",
 "status": 200,
-"bytes": 46821
+"bytes": 46250
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=002&page=2",
 "status": 200,
-"bytes": 47144
+"bytes": 32569
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=002&page=3",
 "status": 200,
-"bytes": 26908
-},
-{
-"url": "https://www.cometoplay.kr/item_list.php?category_id=002&page=4",
-"status": 200,
-"bytes": 23277
+"bytes": 23276
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=004",
 "status": 200,
-"bytes": 27654
+"bytes": 26566
 },
 {
 "url": "https://www.cometoplay.kr/item_list.php?category_id=004&page=2",
@@ -437,116 +432,116 @@
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area",
 "status": 200,
-"bytes": 293860
+"bytes": 293698
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area&page=2",
 "status": 200,
-"bytes": 295607
+"bytes": 295772
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area&page=3",
 "status": 200,
-"bytes": 295480
+"bytes": 295481
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area&page=4",
 "status": 200,
-"bytes": 294889
+"bytes": 295641
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area&page=5",
 "status": 200,
-"bytes": 292553
+"bytes": 292574
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area&page=6",
 "status": 200,
-"bytes": 298701
+"bytes": 297705
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area&page=7",
 "status": 200,
-"bytes": 296749
+"bytes": 296789
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area&page=8",
 "status": 200,
-"bytes": 291394
+"bytes": 291428
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area&page=9",
 "status": 200,
-"bytes": 292768
+"bytes": 292706
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=area&page=10",
 "status": 200,
-"bytes": 293006
+"bytes": 293731
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product",
 "status": 200,
-"bytes": 270792
+"bytes": 270785
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product&page=2",
 "status": 200,
-"bytes": 267013
+"bytes": 266845
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product&page=3",
 "status": 200,
-"bytes": 273266
+"bytes": 273391
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product&page=4",
 "status": 200,
-"bytes": 271289
+"bytes": 271270
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product&page=5",
 "status": 200,
-"bytes": 271359
+"bytes": 271906
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product&page=6",
 "status": 200,
-"bytes": 261660
+"bytes": 261026
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product&page=7",
 "status": 200,
-"bytes": 273836
+"bytes": 275804
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product&page=8",
 "status": 200,
-"bytes": 271278
+"bytes": 269403
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product&page=9",
 "status": 200,
-"bytes": 263534
+"bytes": 263446
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=product&page=10",
 "status": 200,
-"bytes": 280186
+"bytes": 282008
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=reporter",
 "status": 200,
-"bytes": 255905
+"bytes": 255907
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=reporter&page=2",
 "status": 200,
-"bytes": 226477
+"bytes": 226478
 },
 {
 "url": "https://www.assaview.co.kr/campaign_list.php?type=reporter&page=3",
 "status": 200,
-"bytes": 184350
+"bytes": 184351
 }
 ]
