@@ -1,5 +1,6 @@
 """강남맛집 (강남맛집.net) — 카드: [Blog][방문형][N일 남음] [시도 구군] 업체 / 제공내역 / 신청 A / 모집 B"""
 import re
+from urllib.parse import quote
 
 from bs4 import BeautifulSoup
 
@@ -8,15 +9,21 @@ from crawler.common import detect_media, detect_region, fetch, has_extra_mission
 SITE = "강남맛집"
 BASE = "https://xn--939au0g4vj8sq.net"
 ID_RE = re.compile(r"^(?:https://(?:xn--939au0g4vj8sq|강남맛집)\.net)?/cp/\?id=(\d+)$")
-MAX_PAGES = 10
+MAX_PAGES = 1  # page= 무시됨
 
 
 CA_CAT = {"2005": "맛집", "2010": "뷰티", "2015": "숙박", "2020": "문화", "2025": "배달", "2030": "포장", "2035": "기타"}
 
 
+SIDO_Q = ["서울", "경기", "인천", "강원", "대전", "세종", "충북", "충남", "광주", "전북", "전남",
+          "대구", "경북", "경남", "부산", "울산", "제주"]
+
+
 def list_urls():
-    # 지역(방문형)은 분야별(맛집~기타), 제품(배송형), 클립, 기자단
-    return [f"{BASE}/cp/?ca={c}" for c in CA_CAT] + [f"{BASE}/cp/?ca=30", f"{BASE}/cp/?ch=clip", f"{BASE}/cp/?ca=40"]
+    """목록은 한 번에 30개만 내려오고 page= 파라미터가 무시됨(다음은 스크립트로 불러옴).
+    그래서 지역(방문형)은 분야 x 시·도 검색(stx)으로 나눠 각각 첫 30개를 받는다."""
+    urls = [f"{BASE}/cp/?ca={c}&stx={quote(s)}" for c in CA_CAT for s in SIDO_Q]
+    return urls + [f"{BASE}/cp/?ca=30", f"{BASE}/cp/?ch=clip", f"{BASE}/cp/?ca=40"]
 
 
 def _card(a):
@@ -86,7 +93,7 @@ def crawl():
             html = fetch(url)
             if not html:
                 break
-            hint = next((v for k, v in CA_CAT.items() if f"ca={k}" in base_url), "")
+            hint = next((v for k, v in CA_CAT.items() if f"ca={k}&" in base_url), "")
             new = [i for i in parse(html) if i["id"] not in seen]
             for i in new:
                 i["cat_hint"] = hint
